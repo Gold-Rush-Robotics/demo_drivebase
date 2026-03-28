@@ -1,5 +1,7 @@
 <?xml version="1.0"?>
 <robot xmlns:xacro="http://www.ros.org/wiki/xacro">
+  <xacro:arg name="hardware_interface" default="CanInterface" />
+  <xacro:property name="hardware_interface_value" value="$(arg hardware_interface)" />
   <ros2_control name="gregg" type="system">
     <hardware>
       <plugin>grr_hardware/$(arg hardware_interface)</plugin>
@@ -10,7 +12,6 @@
         <param name="invert_can_joints">FR, RR</param>
         <param name="controlled_joints">front_right_mecanum_joint, front_left_mecanum_joint, rear_right_mecanum_joint, rear_left_mecanum_joint</param>
       </xacro:if>
-    </hardware>
     </hardware>
     <joint name="front_right_mecanum_joint">
       <command_interface name="velocity">

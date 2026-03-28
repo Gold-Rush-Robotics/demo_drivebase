@@ -16,6 +16,7 @@ def generate_launch_description():
     xacro_file = os.path.join(description_pkg_path, 'urdf', 'robots','test_robot_2026.urdf.xacro')
     controllers_file = os.path.join(config_pkg_path, 'config', 'controllers.yaml')
     rviz_file = os.path.join(config_pkg_path, 'config', 'config.rviz')
+    hardware_interface = 'CanInterface'
     robot_description_xml = Command([
         'xacro ', xacro_file,
         ' hardware_interface:=', hardware_interface
