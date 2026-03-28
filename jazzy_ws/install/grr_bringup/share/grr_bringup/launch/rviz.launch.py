@@ -1,1 +1,0 @@
-/ros2_ws/jazzy_ws/src/grr_bringup/launch/rviz.launch.py

@@ -1,1 +1,0 @@
-/ros2_ws/jazzy_ws/build/grr_bringup/ament_cmake_environment_hooks/local_setup.bash

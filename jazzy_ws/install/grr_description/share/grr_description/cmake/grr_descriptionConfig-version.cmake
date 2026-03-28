@@ -1,1 +1,0 @@
-/ros2_ws/jazzy_ws/build/grr_description/ament_cmake_core/grr_descriptionConfig-version.cmake
