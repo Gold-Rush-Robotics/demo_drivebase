@@ -1,0 +1,891 @@
+[0.000000] (-) TimerEvent: {}
+[0.000582] (grr_bringup) JobQueued: {'identifier': 'grr_bringup', 'dependencies': OrderedDict()}
+[0.001187] (grr_cmake_controller) JobQueued: {'identifier': 'grr_cmake_controller', 'dependencies': OrderedDict()}
+[0.001453] (grr_hardware) JobQueued: {'identifier': 'grr_hardware', 'dependencies': OrderedDict()}
+[0.001730] (grr_test) JobQueued: {'identifier': 'grr_test', 'dependencies': OrderedDict()}
+[0.001818] (grr_description) JobQueued: {'identifier': 'grr_description', 'dependencies': OrderedDict({'grr_hardware': '/ros2_ws/jazzy_ws/install/grr_hardware'})}
+[0.001905] (grr_hardware) JobStarted: {'identifier': 'grr_hardware'}
+[0.018989] (grr_bringup) JobStarted: {'identifier': 'grr_bringup'}
+[0.025619] (grr_cmake_controller) JobStarted: {'identifier': 'grr_cmake_controller'}
+[0.032260] (grr_test) JobStarted: {'identifier': 'grr_test'}
+[0.045041] (grr_hardware) JobProgress: {'identifier': 'grr_hardware', 'progress': 'cmake'}
+[0.046043] (grr_hardware) Command: {'cmd': ['/usr/bin/cmake', '/ros2_ws/jazzy_ws/src/grr_hardware', '-DAMENT_CMAKE_SYMLINK_INSTALL=1', '-DCMAKE_INSTALL_PREFIX=/ros2_ws/jazzy_ws/install/grr_hardware'], 'cwd': '/ros2_ws/jazzy_ws/build/grr_hardware', 'env': OrderedDict({'HOSTNAME': 'c1aa08e4ae39', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/opt/ros/jazzy/lib/aarch64-linux-gnu:/opt/ros/jazzy/lib', 'HOME': '/root', 'OLDPWD': '/ros2_ws', 'ROS_PYTHON_VERSION': '3', 'ROS_DISTRO': 'jazzy', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'TERM': 'xterm', 'PATH': '/opt/ros/jazzy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin', 'LANG': 'C.UTF-8', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=00:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.avif=01;35:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:*~=00;90:*#=00;90:*.bak=00;90:*.crdownload=00;90:*.dpkg-dist=00;90:*.dpkg-new=00;90:*.dpkg-old=00;90:*.dpkg-tmp=00;90:*.old=00;90:*.orig=00;90:*.part=00;90:*.rej=00;90:*.rpmnew=00;90:*.rpmorig=00;90:*.rpmsave=00;90:*.swp=00;90:*.tmp=00;90:*.ucf-dist=00;90:*.ucf-new=00;90:*.ucf-old=00;90:', 'AMENT_PREFIX_PATH': '/opt/ros/jazzy', 'ROS_AUTOMATIC_DISCOVERY_RANGE': 'SUBNET', 'PWD': '/ros2_ws/jazzy_ws/build/grr_hardware', 'LC_ALL': 'C.UTF-8', 'PYTHONPATH': '/opt/ros/jazzy/lib/python3.12/site-packages', 'COLCON': '1', 'CMAKE_PREFIX_PATH': '/opt/ros/jazzy'}), 'shell': False}
+[0.051499] (grr_bringup) JobProgress: {'identifier': 'grr_bringup', 'progress': 'cmake'}
+[0.052504] (grr_bringup) Command: {'cmd': ['/usr/bin/cmake', '/ros2_ws/jazzy_ws/src/grr_bringup', '-DAMENT_CMAKE_SYMLINK_INSTALL=1', '-DCMAKE_INSTALL_PREFIX=/ros2_ws/jazzy_ws/install/grr_bringup'], 'cwd': '/ros2_ws/jazzy_ws/build/grr_bringup', 'env': OrderedDict({'HOSTNAME': 'c1aa08e4ae39', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/opt/ros/jazzy/lib/aarch64-linux-gnu:/opt/ros/jazzy/lib', 'HOME': '/root', 'OLDPWD': '/ros2_ws', 'ROS_PYTHON_VERSION': '3', 'ROS_DISTRO': 'jazzy', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'TERM': 'xterm', 'PATH': '/opt/ros/jazzy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin', 'LANG': 'C.UTF-8', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=00:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.avif=01;35:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:*~=00;90:*#=00;90:*.bak=00;90:*.crdownload=00;90:*.dpkg-dist=00;90:*.dpkg-new=00;90:*.dpkg-old=00;90:*.dpkg-tmp=00;90:*.old=00;90:*.orig=00;90:*.part=00;90:*.rej=00;90:*.rpmnew=00;90:*.rpmorig=00;90:*.rpmsave=00;90:*.swp=00;90:*.tmp=00;90:*.ucf-dist=00;90:*.ucf-new=00;90:*.ucf-old=00;90:', 'AMENT_PREFIX_PATH': '/opt/ros/jazzy', 'ROS_AUTOMATIC_DISCOVERY_RANGE': 'SUBNET', 'PWD': '/ros2_ws/jazzy_ws/build/grr_bringup', 'LC_ALL': 'C.UTF-8', 'PYTHONPATH': '/opt/ros/jazzy/lib/python3.12/site-packages', 'COLCON': '1', 'CMAKE_PREFIX_PATH': '/opt/ros/jazzy'}), 'shell': False}
+[0.054564] (grr_cmake_controller) JobProgress: {'identifier': 'grr_cmake_controller', 'progress': 'cmake'}
+[0.055354] (grr_cmake_controller) Command: {'cmd': ['/usr/bin/cmake', '/ros2_ws/jazzy_ws/src/grr_cmake_controller', '-DAMENT_CMAKE_SYMLINK_INSTALL=1', '-DCMAKE_INSTALL_PREFIX=/ros2_ws/jazzy_ws/install/grr_cmake_controller'], 'cwd': '/ros2_ws/jazzy_ws/build/grr_cmake_controller', 'env': OrderedDict({'HOSTNAME': 'c1aa08e4ae39', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/opt/ros/jazzy/lib/aarch64-linux-gnu:/opt/ros/jazzy/lib', 'HOME': '/root', 'OLDPWD': '/ros2_ws', 'ROS_PYTHON_VERSION': '3', 'ROS_DISTRO': 'jazzy', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'TERM': 'xterm', 'PATH': '/opt/ros/jazzy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin', 'LANG': 'C.UTF-8', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=00:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.avif=01;35:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:*~=00;90:*#=00;90:*.bak=00;90:*.crdownload=00;90:*.dpkg-dist=00;90:*.dpkg-new=00;90:*.dpkg-old=00;90:*.dpkg-tmp=00;90:*.old=00;90:*.orig=00;90:*.part=00;90:*.rej=00;90:*.rpmnew=00;90:*.rpmorig=00;90:*.rpmsave=00;90:*.swp=00;90:*.tmp=00;90:*.ucf-dist=00;90:*.ucf-new=00;90:*.ucf-old=00;90:', 'AMENT_PREFIX_PATH': '/opt/ros/jazzy', 'ROS_AUTOMATIC_DISCOVERY_RANGE': 'SUBNET', 'PWD': '/ros2_ws/jazzy_ws/build/grr_cmake_controller', 'LC_ALL': 'C.UTF-8', 'PYTHONPATH': '/opt/ros/jazzy/lib/python3.12/site-packages', 'COLCON': '1', 'CMAKE_PREFIX_PATH': '/opt/ros/jazzy'}), 'shell': False}
+[0.099503] (-) TimerEvent: {}
+[0.200751] (-) TimerEvent: {}
+[0.259039] (grr_hardware) StdoutLine: {'line': b'-- The C compiler identification is GNU 13.3.0\n'}
+[0.262676] (grr_bringup) StdoutLine: {'line': b'-- The C compiler identification is GNU 13.3.0\n'}
+[0.277780] (grr_cmake_controller) StdoutLine: {'line': b'-- The C compiler identification is GNU 13.3.0\n'}
+[0.300907] (-) TimerEvent: {}
+[0.401512] (-) TimerEvent: {}
+[0.435547] (grr_cmake_controller) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 13.3.0\n'}
+[0.436018] (grr_bringup) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 13.3.0\n'}
+[0.436255] (grr_hardware) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 13.3.0\n'}
+[0.472478] (grr_bringup) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[0.472960] (grr_hardware) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[0.473321] (grr_cmake_controller) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[0.501665] (-) TimerEvent: {}
+[0.602316] (-) TimerEvent: {}
+[0.672512] (grr_bringup) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[0.672981] (grr_cmake_controller) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[0.684614] (grr_hardware) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[0.692276] (grr_cmake_controller) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc - skipped\n'}
+[0.693172] (grr_cmake_controller) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[0.694329] (grr_cmake_controller) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[0.698507] (grr_bringup) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc - skipped\n'}
+[0.699697] (grr_bringup) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[0.701106] (grr_bringup) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[0.702416] (-) TimerEvent: {}
+[0.704747] (grr_hardware) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc - skipped\n'}
+[0.705321] (grr_hardware) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[0.706213] (grr_hardware) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[0.720507] (grr_cmake_controller) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[0.732410] (grr_bringup) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[0.732896] (grr_hardware) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[0.802597] (-) TimerEvent: {}
+[0.903431] (-) TimerEvent: {}
+[0.938813] (grr_bringup) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[0.939289] (grr_hardware) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[0.941617] (grr_cmake_controller) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[0.959150] (grr_hardware) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ - skipped\n'}
+[0.959850] (grr_hardware) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[0.960903] (grr_hardware) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[0.961874] (grr_bringup) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ - skipped\n'}
+[0.962396] (grr_cmake_controller) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ - skipped\n'}
+[0.963159] (grr_cmake_controller) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[0.963776] (grr_bringup) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[0.964439] (grr_cmake_controller) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[0.965631] (grr_bringup) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[0.970782] (grr_cmake_controller) StdoutLine: {'line': b'-- Found ament_cmake: 2.5.5 (/opt/ros/jazzy/share/ament_cmake/cmake)\n'}
+[0.971265] (grr_hardware) StdoutLine: {'line': b'-- Found ament_cmake: 2.5.5 (/opt/ros/jazzy/share/ament_cmake/cmake)\n'}
+[0.972955] (grr_bringup) StdoutLine: {'line': b'-- Found ament_cmake: 2.5.5 (/opt/ros/jazzy/share/ament_cmake/cmake)\n'}
+[1.003584] (-) TimerEvent: {}
+[1.106114] (-) TimerEvent: {}
+[1.208347] (-) TimerEvent: {}
+[1.252036] (grr_bringup) StdoutLine: {'line': b'-- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter \n'}
+[1.256878] (grr_cmake_controller) StdoutLine: {'line': b'-- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter \n'}
+[1.258802] (grr_hardware) StdoutLine: {'line': b'-- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter \n'}
+[1.308510] (-) TimerEvent: {}
+[1.410694] (-) TimerEvent: {}
+[1.472597] (grr_hardware) StdoutLine: {'line': b'-- Override CMake install command with custom implementation using symlinks instead of copying resources\n'}
+[1.473249] (grr_bringup) StdoutLine: {'line': b'-- Override CMake install command with custom implementation using symlinks instead of copying resources\n'}
+[1.485640] (grr_cmake_controller) StdoutLine: {'line': b'-- Override CMake install command with custom implementation using symlinks instead of copying resources\n'}
+[1.510882] (-) TimerEvent: {}
+[1.556978] (grr_cmake_controller) StdoutLine: {'line': b'-- Found controller_interface: 4.42.2 (/opt/ros/jazzy/share/controller_interface/cmake)\n'}
+[1.558061] (grr_bringup) StdoutLine: {'line': b'-- Found ament_lint_auto: 0.17.4 (/opt/ros/jazzy/share/ament_lint_auto/cmake)\n'}
+[1.561049] (grr_hardware) StdoutLine: {'line': b'-- Found hardware_interface: 4.42.2 (/opt/ros/jazzy/share/hardware_interface/cmake)\n'}
+[1.611038] (-) TimerEvent: {}
+[1.681867] (grr_hardware) StdoutLine: {'line': b'-- Found rosidl_generator_c: 4.6.7 (/opt/ros/jazzy/share/rosidl_generator_c/cmake)\n'}
+[1.682485] (grr_cmake_controller) StdoutLine: {'line': b'-- Found rosidl_generator_c: 4.6.7 (/opt/ros/jazzy/share/rosidl_generator_c/cmake)\n'}
+[1.711181] (-) TimerEvent: {}
+[1.718790] (grr_hardware) StdoutLine: {'line': b'-- Found rosidl_generator_cpp: 4.6.7 (/opt/ros/jazzy/share/rosidl_generator_cpp/cmake)\n'}
+[1.719669] (grr_cmake_controller) StdoutLine: {'line': b'-- Found rosidl_generator_cpp: 4.6.7 (/opt/ros/jazzy/share/rosidl_generator_cpp/cmake)\n'}
+[1.767277] (grr_hardware) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[1.767887] (grr_cmake_controller) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[1.811377] (-) TimerEvent: {}
+[1.819517] (grr_cmake_controller) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[1.820027] (grr_hardware) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[1.847977] (grr_bringup) StdoutLine: {'line': b"-- Added test 'flake8' to check Python code syntax and style conventions\n"}
+[1.848581] (grr_bringup) StdoutLine: {'line': b"-- Configured 'flake8' exclude dirs and/or files: \n"}
+[1.849804] (grr_bringup) StdoutLine: {'line': b"-- Added test 'lint_cmake' to check CMake code style\n"}
+[1.851207] (grr_bringup) StdoutLine: {'line': b"-- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257\n"}
+[1.853859] (grr_bringup) StdoutLine: {'line': b"-- Added test 'xmllint' to check XML markup files\n"}
+[1.858292] (grr_bringup) StdoutLine: {'line': b'-- Configuring done (1.8s)\n'}
+[1.867368] (grr_bringup) StdoutLine: {'line': b'-- Generating done (0.0s)\n'}
+[1.871414] (grr_bringup) StdoutLine: {'line': b'-- Build files have been written to: /ros2_ws/jazzy_ws/build/grr_bringup\n'}
+[1.886227] (grr_bringup) CommandEnded: {'returncode': 0}
+[1.887108] (grr_bringup) JobProgress: {'identifier': 'grr_bringup', 'progress': 'build'}
+[1.888978] (grr_bringup) Command: {'cmd': ['/usr/bin/cmake', '--build', '/ros2_ws/jazzy_ws/build/grr_bringup', '--', '-j4', '-l4'], 'cwd': '/ros2_ws/jazzy_ws/build/grr_bringup', 'env': OrderedDict({'HOSTNAME': 'c1aa08e4ae39', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/opt/ros/jazzy/lib/aarch64-linux-gnu:/opt/ros/jazzy/lib', 'HOME': '/root', 'OLDPWD': '/ros2_ws', 'ROS_PYTHON_VERSION': '3', 'ROS_DISTRO': 'jazzy', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'TERM': 'xterm', 'PATH': '/opt/ros/jazzy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin', 'LANG': 'C.UTF-8', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=00:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.avif=01;35:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:*~=00;90:*#=00;90:*.bak=00;90:*.crdownload=00;90:*.dpkg-dist=00;90:*.dpkg-new=00;90:*.dpkg-old=00;90:*.dpkg-tmp=00;90:*.old=00;90:*.orig=00;90:*.part=00;90:*.rej=00;90:*.rpmnew=00;90:*.rpmorig=00;90:*.rpmsave=00;90:*.swp=00;90:*.tmp=00;90:*.ucf-dist=00;90:*.ucf-new=00;90:*.ucf-old=00;90:', 'AMENT_PREFIX_PATH': '/opt/ros/jazzy', 'ROS_AUTOMATIC_DISCOVERY_RANGE': 'SUBNET', 'PWD': '/ros2_ws/jazzy_ws/build/grr_bringup', 'LC_ALL': 'C.UTF-8', 'PYTHONPATH': '/opt/ros/jazzy/lib/python3.12/site-packages', 'COLCON': '1', 'CMAKE_PREFIX_PATH': '/opt/ros/jazzy'}), 'shell': False}
+[1.911556] (-) TimerEvent: {}
+[1.973943] (grr_bringup) CommandEnded: {'returncode': 0}
+[1.974673] (grr_bringup) JobProgress: {'identifier': 'grr_bringup', 'progress': 'install'}
+[1.995058] (grr_bringup) Command: {'cmd': ['/usr/bin/cmake', '--install', '/ros2_ws/jazzy_ws/build/grr_bringup'], 'cwd': '/ros2_ws/jazzy_ws/build/grr_bringup', 'env': OrderedDict({'HOSTNAME': 'c1aa08e4ae39', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/opt/ros/jazzy/lib/aarch64-linux-gnu:/opt/ros/jazzy/lib', 'HOME': '/root', 'OLDPWD': '/ros2_ws', 'ROS_PYTHON_VERSION': '3', 'ROS_DISTRO': 'jazzy', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'TERM': 'xterm', 'PATH': '/opt/ros/jazzy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin', 'LANG': 'C.UTF-8', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=00:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.avif=01;35:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:*~=00;90:*#=00;90:*.bak=00;90:*.crdownload=00;90:*.dpkg-dist=00;90:*.dpkg-new=00;90:*.dpkg-old=00;90:*.dpkg-tmp=00;90:*.old=00;90:*.orig=00;90:*.part=00;90:*.rej=00;90:*.rpmnew=00;90:*.rpmorig=00;90:*.rpmsave=00;90:*.swp=00;90:*.tmp=00;90:*.ucf-dist=00;90:*.ucf-new=00;90:*.ucf-old=00;90:', 'AMENT_PREFIX_PATH': '/opt/ros/jazzy', 'ROS_AUTOMATIC_DISCOVERY_RANGE': 'SUBNET', 'PWD': '/ros2_ws/jazzy_ws/build/grr_bringup', 'LC_ALL': 'C.UTF-8', 'PYTHONPATH': '/opt/ros/jazzy/lib/python3.12/site-packages', 'COLCON': '1', 'CMAKE_PREFIX_PATH': '/opt/ros/jazzy'}), 'shell': False}
+[2.011740] (-) TimerEvent: {}
+[2.019743] (grr_bringup) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[2.021576] (grr_bringup) StdoutLine: {'line': b'-- Execute custom install script\n'}
+[2.023358] (grr_bringup) StdoutLine: {'line': b'-- Symlinking: /ros2_ws/jazzy_ws/install/grr_bringup/share/grr_bringup/launch/motor_controllers.launch.py\n'}
+[2.035245] (grr_test) Command: {'cmd': ['/usr/bin/python3', '-W', 'ignore:setup.py install is deprecated', '-W', 'ignore:easy_install command is deprecated', 'setup.py', 'develop', '--editable', '--build-directory', '/ros2_ws/jazzy_ws/build/grr_test/build', '--no-deps', 'symlink_data'], 'cwd': '/ros2_ws/jazzy_ws/build/grr_test', 'env': {'HOSTNAME': 'c1aa08e4ae39', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/opt/ros/jazzy/lib/aarch64-linux-gnu:/opt/ros/jazzy/lib', 'HOME': '/root', 'OLDPWD': '/ros2_ws', 'ROS_PYTHON_VERSION': '3', 'ROS_DISTRO': 'jazzy', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'TERM': 'xterm', 'PATH': '/opt/ros/jazzy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin', 'LANG': 'C.UTF-8', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=00:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.avif=01;35:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:*~=00;90:*#=00;90:*.bak=00;90:*.crdownload=00;90:*.dpkg-dist=00;90:*.dpkg-new=00;90:*.dpkg-old=00;90:*.dpkg-tmp=00;90:*.old=00;90:*.orig=00;90:*.part=00;90:*.rej=00;90:*.rpmnew=00;90:*.rpmorig=00;90:*.rpmsave=00;90:*.swp=00;90:*.tmp=00;90:*.ucf-dist=00;90:*.ucf-new=00;90:*.ucf-old=00;90:', 'AMENT_PREFIX_PATH': '/opt/ros/jazzy', 'ROS_AUTOMATIC_DISCOVERY_RANGE': 'SUBNET', 'PWD': '/ros2_ws/jazzy_ws/build/grr_test', 'LC_ALL': 'C.UTF-8', 'PYTHONPATH': '/ros2_ws/jazzy_ws/build/grr_test/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/ros2_ws/jazzy_ws/install/grr_test/lib/python3.12/site-packages:/opt/ros/jazzy/lib/python3.12/site-packages', 'COLCON': '1'}, 'shell': False}
+[2.044056] (grr_bringup) StdoutLine: {'line': b'-- Symlinking: /ros2_ws/jazzy_ws/install/grr_bringup/share/grr_bringup/launch/rviz.launch.py\n'}
+[2.075127] (grr_bringup) StdoutLine: {'line': b'-- Symlinking: /ros2_ws/jazzy_ws/install/grr_bringup/share/grr_bringup/config/controllers.yaml\n'}
+[2.094625] (grr_bringup) StdoutLine: {'line': b'-- Symlinking: /ros2_ws/jazzy_ws/install/grr_bringup/share/grr_bringup/config/isaac.rviz\n'}
+[2.111900] (-) TimerEvent: {}
+[2.113720] (grr_bringup) StdoutLine: {'line': b'-- Symlinking: /ros2_ws/jazzy_ws/install/grr_bringup/share/grr_bringup/config/rviz.rviz\n'}
+[2.133454] (grr_bringup) StdoutLine: {'line': b'-- Symlinking: /ros2_ws/jazzy_ws/install/grr_bringup/share/grr_bringup/config/servo_params.yaml\n'}
+[2.152686] (grr_bringup) StdoutLine: {'line': b'-- Symlinking: /ros2_ws/jazzy_ws/install/grr_bringup/share/grr_bringup/config/view.rviz\n'}
+[2.171210] (grr_bringup) StdoutLine: {'line': b'-- Symlinking: /ros2_ws/jazzy_ws/install/grr_bringup/share/grr_bringup/config/xbox-holonomic.config.yaml\n'}
+[2.191516] (grr_bringup) StdoutLine: {'line': b'-- Symlinking: /ros2_ws/jazzy_ws/install/grr_bringup/share/ament_index/resource_index/package_run_dependencies/grr_bringup\n'}
+[2.211607] (grr_bringup) StdoutLine: {'line': b'-- Symlinking: /ros2_ws/jazzy_ws/install/grr_bringup/share/ament_index/resource_index/parent_prefix_path/grr_bringup\n'}
+[2.212124] (-) TimerEvent: {}
+[2.231327] (grr_bringup) StdoutLine: {'line': b'-- Symlinking: /ros2_ws/jazzy_ws/install/grr_bringup/share/grr_bringup/environment/ament_prefix_path.sh\n'}
+[2.251222] (grr_bringup) StdoutLine: {'line': b'-- Symlinking: /ros2_ws/jazzy_ws/install/grr_bringup/share/grr_bringup/environment/ament_prefix_path.dsv\n'}
+[2.270950] (grr_bringup) StdoutLine: {'line': b'-- Symlinking: /ros2_ws/jazzy_ws/install/grr_bringup/share/grr_bringup/environment/path.sh\n'}
+[2.291332] (grr_bringup) StdoutLine: {'line': b'-- Symlinking: /ros2_ws/jazzy_ws/install/grr_bringup/share/grr_bringup/environment/path.dsv\n'}
+[2.312146] (grr_bringup) StdoutLine: {'line': b'-- Symlinking: /ros2_ws/jazzy_ws/install/grr_bringup/share/grr_bringup/local_setup.bash\n'}
+[2.312611] (-) TimerEvent: {}
+[2.331852] (grr_bringup) StdoutLine: {'line': b'-- Symlinking: /ros2_ws/jazzy_ws/install/grr_bringup/share/grr_bringup/local_setup.sh\n'}
+[2.349628] (grr_bringup) StdoutLine: {'line': b'-- Symlinking: /ros2_ws/jazzy_ws/install/grr_bringup/share/grr_bringup/local_setup.zsh\n'}
+[2.365250] (grr_cmake_controller) StdoutLine: {'line': b'-- Found TinyXML2 via Config file: /usr/lib/aarch64-linux-gnu/cmake/tinyxml2\n'}
+[2.365856] (grr_hardware) StdoutLine: {'line': b'-- Found TinyXML2 via Config file: /usr/lib/aarch64-linux-gnu/cmake/tinyxml2\n'}
+[2.367915] (grr_bringup) StdoutLine: {'line': b'-- Symlinking: /ros2_ws/jazzy_ws/install/grr_bringup/share/grr_bringup/local_setup.dsv\n'}
+[2.386207] (grr_bringup) StdoutLine: {'line': b'-- Symlinking: /ros2_ws/jazzy_ws/install/grr_bringup/share/grr_bringup/package.dsv\n'}
+[2.405207] (grr_bringup) StdoutLine: {'line': b'-- Symlinking: /ros2_ws/jazzy_ws/install/grr_bringup/share/ament_index/resource_index/packages/grr_bringup\n'}
+[2.412777] (-) TimerEvent: {}
+[2.424958] (grr_bringup) StdoutLine: {'line': b'-- Symlinking: /ros2_ws/jazzy_ws/install/grr_bringup/share/grr_bringup/cmake/grr_bringupConfig.cmake\n'}
+[2.443974] (grr_bringup) StdoutLine: {'line': b'-- Symlinking: /ros2_ws/jazzy_ws/install/grr_bringup/share/grr_bringup/cmake/grr_bringupConfig-version.cmake\n'}
+[2.462025] (grr_bringup) StdoutLine: {'line': b'-- Symlinking: /ros2_ws/jazzy_ws/install/grr_bringup/share/grr_bringup/package.xml\n'}
+[2.484387] (grr_cmake_controller) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 7.3.3 (/opt/ros/jazzy/share/rmw_implementation_cmake/cmake)\n'}
+[2.484956] (grr_hardware) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 7.3.3 (/opt/ros/jazzy/share/rmw_implementation_cmake/cmake)\n'}
+[2.486389] (grr_bringup) CommandEnded: {'returncode': 0}
+[2.492429] (grr_cmake_controller) StdoutLine: {'line': b'-- Found rmw_fastrtps_cpp: 8.4.3 (/opt/ros/jazzy/share/rmw_fastrtps_cpp/cmake)\n'}
+[2.492879] (grr_hardware) StdoutLine: {'line': b'-- Found rmw_fastrtps_cpp: 8.4.3 (/opt/ros/jazzy/share/rmw_fastrtps_cpp/cmake)\n'}
+[2.513724] (-) TimerEvent: {}
+[2.535229] (grr_bringup) JobEnded: {'identifier': 'grr_bringup', 'rc': 0}
+[2.560228] (grr_hardware) StdoutLine: {'line': b'-- Found TinyXML2 via Config file: /usr/lib/aarch64-linux-gnu/cmake/tinyxml2\n'}
+[2.560762] (grr_cmake_controller) StdoutLine: {'line': b'-- Found TinyXML2 via Config file: /usr/lib/aarch64-linux-gnu/cmake/tinyxml2\n'}
+[2.613888] (-) TimerEvent: {}
+[2.646544] (grr_hardware) StdoutLine: {'line': b'-- Found OpenSSL: /usr/lib/aarch64-linux-gnu/libcrypto.so (found version "3.0.13")  \n'}
+[2.647057] (grr_cmake_controller) StdoutLine: {'line': b'-- Found OpenSSL: /usr/lib/aarch64-linux-gnu/libcrypto.so (found version "3.0.13")  \n'}
+[2.655642] (grr_cmake_controller) StdoutLine: {'line': b'-- Found TinyXML2 via Config file: /usr/lib/aarch64-linux-gnu/cmake/tinyxml2\n'}
+[2.656081] (grr_hardware) StdoutLine: {'line': b'-- Found TinyXML2 via Config file: /usr/lib/aarch64-linux-gnu/cmake/tinyxml2\n'}
+[2.686138] (grr_hardware) StdoutLine: {'line': b'-- Found FastRTPS: /opt/ros/jazzy/include (Required is at least version "2.13") \n'}
+[2.686670] (grr_cmake_controller) StdoutLine: {'line': b'-- Found FastRTPS: /opt/ros/jazzy/include (Required is at least version "2.13") \n'}
+[2.694038] (grr_cmake_controller) StdoutLine: {'line': b'-- Found TinyXML2 via Config file: /usr/lib/aarch64-linux-gnu/cmake/tinyxml2\n'}
+[2.694989] (grr_hardware) StdoutLine: {'line': b'-- Found TinyXML2 via Config file: /usr/lib/aarch64-linux-gnu/cmake/tinyxml2\n'}
+[2.713362] (grr_cmake_controller) StdoutLine: {'line': b'-- Found TinyXML2 via Config file: /usr/lib/aarch64-linux-gnu/cmake/tinyxml2\n'}
+[2.713976] (-) TimerEvent: {}
+[2.716467] (grr_hardware) StdoutLine: {'line': b'-- Found TinyXML2 via Config file: /usr/lib/aarch64-linux-gnu/cmake/tinyxml2\n'}
+[2.736520] (grr_hardware) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_fastrtps_cpp' as default\n"}
+[2.738201] (grr_cmake_controller) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_fastrtps_cpp' as default\n"}
+[2.738630] (grr_test) StdoutLine: {'line': b'running develop\n'}
+[2.814144] (-) TimerEvent: {}
+[2.915808] (-) TimerEvent: {}
+[3.017934] (-) TimerEvent: {}
+[3.106295] (grr_test) StdoutLine: {'line': b'running egg_info\n'}
+[3.106775] (grr_test) StdoutLine: {'line': b'creating grr_test.egg-info\n'}
+[3.118088] (-) TimerEvent: {}
+[3.142075] (grr_test) StdoutLine: {'line': b'writing grr_test.egg-info/PKG-INFO\n'}
+[3.142924] (grr_test) StdoutLine: {'line': b'writing dependency_links to grr_test.egg-info/dependency_links.txt\n'}
+[3.143462] (grr_test) StdoutLine: {'line': b'writing requirements to grr_test.egg-info/requires.txt\n'}
+[3.143755] (grr_test) StdoutLine: {'line': b'writing top-level names to grr_test.egg-info/top_level.txt\n'}
+[3.144148] (grr_test) StdoutLine: {'line': b"writing manifest file 'grr_test.egg-info/SOURCES.txt'\n"}
+[3.217183] (grr_test) StdoutLine: {'line': b"reading manifest file 'grr_test.egg-info/SOURCES.txt'\n"}
+[3.218166] (-) TimerEvent: {}
+[3.218585] (grr_test) StdoutLine: {'line': b"writing manifest file 'grr_test.egg-info/SOURCES.txt'\n"}
+[3.257715] (grr_test) StdoutLine: {'line': b'running build_ext\n'}
+[3.258264] (grr_test) StdoutLine: {'line': b'Creating /ros2_ws/jazzy_ws/install/grr_test/lib/python3.12/site-packages/grr-test.egg-link (link to .)\n'}
+[3.259492] (grr_test) StdoutLine: {'line': b'\n'}
+[3.259767] (grr_test) StdoutLine: {'line': b'Installed /ros2_ws/jazzy_ws/build/grr_test\n'}
+[3.260058] (grr_test) StdoutLine: {'line': b'running symlink_data\n'}
+[3.260321] (grr_test) StdoutLine: {'line': b'creating /ros2_ws/jazzy_ws/install/grr_test/share/ament_index\n'}
+[3.260609] (grr_test) StdoutLine: {'line': b'creating /ros2_ws/jazzy_ws/install/grr_test/share/ament_index/resource_index\n'}
+[3.260808] (grr_test) StdoutLine: {'line': b'creating /ros2_ws/jazzy_ws/install/grr_test/share/ament_index/resource_index/packages\n'}
+[3.261023] (grr_test) StdoutLine: {'line': b'symbolically linking /ros2_ws/jazzy_ws/build/grr_test/resource/grr_test -> /ros2_ws/jazzy_ws/install/grr_test/share/ament_index/resource_index/packages\n'}
+[3.261259] (grr_test) StdoutLine: {'line': b'symbolically linking /ros2_ws/jazzy_ws/build/grr_test/package.xml -> /ros2_ws/jazzy_ws/install/grr_test/share/grr_test\n'}
+[3.310737] (grr_hardware) StdoutLine: {'line': b'-- Found ament_cmake_gtest: 2.5.5 (/opt/ros/jazzy/share/ament_cmake_gtest/cmake)\n'}
+[3.311222] (grr_cmake_controller) StdoutLine: {'line': b'-- Found nav_msgs: 5.3.6 (/opt/ros/jazzy/share/nav_msgs/cmake)\n'}
+[3.318330] (-) TimerEvent: {}
+[3.365278] (grr_test) CommandEnded: {'returncode': 0}
+[3.374085] (grr_cmake_controller) StdoutLine: {'line': b'-- Found tf2: 0.36.19 (/opt/ros/jazzy/share/tf2/cmake)\n'}
+[3.384005] (grr_test) JobEnded: {'identifier': 'grr_test', 'rc': 0}
+[3.387978] (grr_cmake_controller) StdoutLine: {'line': b'-- Found tf2_msgs: 0.36.19 (/opt/ros/jazzy/share/tf2_msgs/cmake)\n'}
+[3.418421] (-) TimerEvent: {}
+[3.518942] (-) TimerEvent: {}
+[3.563593] (grr_hardware) StdoutLine: {'line': b'-- Configuring done (3.5s)\n'}
+[3.619042] (-) TimerEvent: {}
+[3.635511] (grr_hardware) StdoutLine: {'line': b'-- Generating done (0.0s)\n'}
+[3.646657] (grr_hardware) StdoutLine: {'line': b'-- Build files have been written to: /ros2_ws/jazzy_ws/build/grr_hardware\n'}
+[3.676041] (grr_hardware) CommandEnded: {'returncode': 0}
+[3.677140] (grr_hardware) JobProgress: {'identifier': 'grr_hardware', 'progress': 'build'}
+[3.677703] (grr_hardware) Command: {'cmd': ['/usr/bin/cmake', '--build', '/ros2_ws/jazzy_ws/build/grr_hardware', '--', '-j4', '-l4'], 'cwd': '/ros2_ws/jazzy_ws/build/grr_hardware', 'env': OrderedDict({'HOSTNAME': 'c1aa08e4ae39', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/opt/ros/jazzy/lib/aarch64-linux-gnu:/opt/ros/jazzy/lib', 'HOME': '/root', 'OLDPWD': '/ros2_ws', 'ROS_PYTHON_VERSION': '3', 'ROS_DISTRO': 'jazzy', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'TERM': 'xterm', 'PATH': '/opt/ros/jazzy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin', 'LANG': 'C.UTF-8', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=00:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.avif=01;35:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:*~=00;90:*#=00;90:*.bak=00;90:*.crdownload=00;90:*.dpkg-dist=00;90:*.dpkg-new=00;90:*.dpkg-old=00;90:*.dpkg-tmp=00;90:*.old=00;90:*.orig=00;90:*.part=00;90:*.rej=00;90:*.rpmnew=00;90:*.rpmorig=00;90:*.rpmsave=00;90:*.swp=00;90:*.tmp=00;90:*.ucf-dist=00;90:*.ucf-new=00;90:*.ucf-old=00;90:', 'AMENT_PREFIX_PATH': '/opt/ros/jazzy', 'ROS_AUTOMATIC_DISCOVERY_RANGE': 'SUBNET', 'PWD': '/ros2_ws/jazzy_ws/build/grr_hardware', 'LC_ALL': 'C.UTF-8', 'PYTHONPATH': '/opt/ros/jazzy/lib/python3.12/site-packages', 'COLCON': '1', 'CMAKE_PREFIX_PATH': '/opt/ros/jazzy'}), 'shell': False}
+[3.682248] (grr_cmake_controller) StdoutLine: {'line': b'-- Configuring done (3.6s)\n'}
+[3.719239] (-) TimerEvent: {}
+[3.745543] (grr_cmake_controller) StdoutLine: {'line': b'-- Generating done (0.0s)\n'}
+[3.757549] (grr_cmake_controller) StdoutLine: {'line': b'-- Build files have been written to: /ros2_ws/jazzy_ws/build/grr_cmake_controller\n'}
+[3.782038] (grr_hardware) StdoutLine: {'line': b'[ 75%] \x1b[32mBuilding CXX object CMakeFiles/grr_hardware.dir/src/base_hardware_interface.cpp.o\x1b[0m\n'}
+[3.782582] (grr_hardware) StdoutLine: {'line': b'[ 75%] \x1b[32mBuilding CXX object CMakeFiles/grr_hardware.dir/src/isaac_drive.cpp.o\x1b[0m\n'}
+[3.782946] (grr_hardware) StdoutLine: {'line': b'[ 75%] \x1b[32mBuilding CXX object CMakeFiles/grr_hardware.dir/src/can_interface.cpp.o\x1b[0m\n'}
+[3.792312] (grr_cmake_controller) CommandEnded: {'returncode': 0}
+[3.793000] (grr_cmake_controller) JobProgress: {'identifier': 'grr_cmake_controller', 'progress': 'build'}
+[3.793062] (grr_cmake_controller) Command: {'cmd': ['/usr/bin/cmake', '--build', '/ros2_ws/jazzy_ws/build/grr_cmake_controller', '--', '-j4', '-l4'], 'cwd': '/ros2_ws/jazzy_ws/build/grr_cmake_controller', 'env': OrderedDict({'HOSTNAME': 'c1aa08e4ae39', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/opt/ros/jazzy/lib/aarch64-linux-gnu:/opt/ros/jazzy/lib', 'HOME': '/root', 'OLDPWD': '/ros2_ws', 'ROS_PYTHON_VERSION': '3', 'ROS_DISTRO': 'jazzy', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'TERM': 'xterm', 'PATH': '/opt/ros/jazzy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin', 'LANG': 'C.UTF-8', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=00:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.avif=01;35:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:*~=00;90:*#=00;90:*.bak=00;90:*.crdownload=00;90:*.dpkg-dist=00;90:*.dpkg-new=00;90:*.dpkg-old=00;90:*.dpkg-tmp=00;90:*.old=00;90:*.orig=00;90:*.part=00;90:*.rej=00;90:*.rpmnew=00;90:*.rpmorig=00;90:*.rpmsave=00;90:*.swp=00;90:*.tmp=00;90:*.ucf-dist=00;90:*.ucf-new=00;90:*.ucf-old=00;90:', 'AMENT_PREFIX_PATH': '/opt/ros/jazzy', 'ROS_AUTOMATIC_DISCOVERY_RANGE': 'SUBNET', 'PWD': '/ros2_ws/jazzy_ws/build/grr_cmake_controller', 'LC_ALL': 'C.UTF-8', 'PYTHONPATH': '/opt/ros/jazzy/lib/python3.12/site-packages', 'COLCON': '1', 'CMAKE_PREFIX_PATH': '/opt/ros/jazzy'}), 'shell': False}
+[3.819449] (-) TimerEvent: {}
+[3.913868] (grr_cmake_controller) StdoutLine: {'line': b'[ 25%] \x1b[32mBuilding CXX object CMakeFiles/grr_cmake_controller.dir/src/odometry.cpp.o\x1b[0m\n'}
+[3.919609] (-) TimerEvent: {}
+[3.930465] (grr_cmake_controller) StdoutLine: {'line': b'[ 50%] \x1b[32mBuilding CXX object CMakeFiles/grr_cmake_controller.dir/src/speed_limiter.cpp.o\x1b[0m\n'}
+[3.940487] (grr_cmake_controller) StdoutLine: {'line': b'[ 75%] \x1b[32mBuilding CXX object CMakeFiles/grr_cmake_controller.dir/src/grr_cmake_controller.cpp.o\x1b[0m\n'}
+[4.019796] (-) TimerEvent: {}
+[4.121319] (-) TimerEvent: {}
+[4.222732] (-) TimerEvent: {}
+[4.323733] (-) TimerEvent: {}
+[4.424400] (-) TimerEvent: {}
+[4.525046] (-) TimerEvent: {}
+[4.625704] (-) TimerEvent: {}
+[4.726350] (-) TimerEvent: {}
+[4.827007] (-) TimerEvent: {}
+[4.881739] (grr_cmake_controller) StderrLine: {'line': b'\x1b[01m\x1b[K/ros2_ws/jazzy_ws/src/grr_cmake_controller/src/speed_limiter.cpp:\x1b[m\x1b[K In member function \xe2\x80\x98\x1b[01m\x1b[Kdouble grr_cmake_controller::SpeedLimiter::\x1b[01;32m\x1b[Klimit_velocity\x1b[m\x1b[K(double&)\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[4.882438] (grr_cmake_controller) StderrLine: {'line': b'\x1b[01m\x1b[K/ros2_ws/jazzy_ws/src/grr_cmake_controller/src/speed_limiter.cpp:95:24:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kconstexpr const T& rcppmath::\x1b[01;32m\x1b[Kclamp\x1b[m\x1b[K(const T&, const T&, const T&) \x1b[35m\x1b[K[with T = double]\x1b[m\x1b[K\x1b[m\x1b[K\xe2\x80\x99 is deprecated: use std::clamp instead, introduced in C++17 [\x1b[01;35m\x1b[K-Wdeprecated-declarations\x1b[m\x1b[K]\n'}
+[4.882841] (grr_cmake_controller) StderrLine: {'line': b'   95 |     v = \x1b[01;35m\x1b[Krcppmath::clamp(v, min_velocity_, max_velocity_)\x1b[m\x1b[K;\n'}
+[4.883049] (grr_cmake_controller) StderrLine: {'line': b'      |         \x1b[01;35m\x1b[K~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[4.883231] (grr_cmake_controller) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/ros2_ws/jazzy_ws/src/grr_cmake_controller/src/speed_limiter.cpp:23\x1b[m\x1b[K:\n'}
+[4.883437] (grr_cmake_controller) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/jazzy/include/rcpputils/rcppmath/clamp.hpp:41:21:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kdeclared here\n'}
+[4.883613] (grr_cmake_controller) StderrLine: {'line': b'   41 | constexpr const T & \x1b[01;36m\x1b[Kclamp\x1b[m\x1b[K(const T & v, const T & lo, const T & hi)\n'}
+[4.883780] (grr_cmake_controller) StderrLine: {'line': b'      |                     \x1b[01;36m\x1b[K^~~~~\x1b[m\x1b[K\n'}
+[4.883962] (grr_cmake_controller) StderrLine: {'line': b'\x1b[01m\x1b[K/ros2_ws/jazzy_ws/src/grr_cmake_controller/src/speed_limiter.cpp:\x1b[m\x1b[K In member function \xe2\x80\x98\x1b[01m\x1b[Kdouble grr_cmake_controller::SpeedLimiter::\x1b[01;32m\x1b[Klimit_acceleration\x1b[m\x1b[K(double&, double, double)\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[4.884131] (grr_cmake_controller) StderrLine: {'line': b'\x1b[01m\x1b[K/ros2_ws/jazzy_ws/src/grr_cmake_controller/src/speed_limiter.cpp:110:38:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kconstexpr const T& rcppmath::\x1b[01;32m\x1b[Kclamp\x1b[m\x1b[K(const T&, const T&, const T&) \x1b[35m\x1b[K[with T = double]\x1b[m\x1b[K\x1b[m\x1b[K\xe2\x80\x99 is deprecated: use std::clamp instead, introduced in C++17 [\x1b[01;35m\x1b[K-Wdeprecated-declarations\x1b[m\x1b[K]\n'}
+[4.884324] (grr_cmake_controller) StderrLine: {'line': b'  110 |     const double dv = \x1b[01;35m\x1b[Krcppmath::clamp(v - v0, dv_min, dv_max)\x1b[m\x1b[K;\n'}
+[4.884489] (grr_cmake_controller) StderrLine: {'line': b'      |                       \x1b[01;35m\x1b[K~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[4.884647] (grr_cmake_controller) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/jazzy/include/rcpputils/rcppmath/clamp.hpp:41:21:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kdeclared here\n'}
+[4.884807] (grr_cmake_controller) StderrLine: {'line': b'   41 | constexpr const T & \x1b[01;36m\x1b[Kclamp\x1b[m\x1b[K(const T & v, const T & lo, const T & hi)\n'}
+[4.884962] (grr_cmake_controller) StderrLine: {'line': b'      |                     \x1b[01;36m\x1b[K^~~~~\x1b[m\x1b[K\n'}
+[4.885117] (grr_cmake_controller) StderrLine: {'line': b'\x1b[01m\x1b[K/ros2_ws/jazzy_ws/src/grr_cmake_controller/src/speed_limiter.cpp:\x1b[m\x1b[K In member function \xe2\x80\x98\x1b[01m\x1b[Kdouble grr_cmake_controller::SpeedLimiter::\x1b[01;32m\x1b[Klimit_jerk\x1b[m\x1b[K(double&, double, double, double)\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[4.885274] (grr_cmake_controller) StderrLine: {'line': b'\x1b[01m\x1b[K/ros2_ws/jazzy_ws/src/grr_cmake_controller/src/speed_limiter.cpp:132:38:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kconstexpr const T& rcppmath::\x1b[01;32m\x1b[Kclamp\x1b[m\x1b[K(const T&, const T&, const T&) \x1b[35m\x1b[K[with T = double]\x1b[m\x1b[K\x1b[m\x1b[K\xe2\x80\x99 is deprecated: use std::clamp instead, introduced in C++17 [\x1b[01;35m\x1b[K-Wdeprecated-declarations\x1b[m\x1b[K]\n'}
+[4.885443] (grr_cmake_controller) StderrLine: {'line': b'  132 |     const double da = \x1b[01;35m\x1b[Krcppmath::clamp(dv - dv0, da_min, da_max)\x1b[m\x1b[K;\n'}
+[4.885599] (grr_cmake_controller) StderrLine: {'line': b'      |                       \x1b[01;35m\x1b[K~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[4.885751] (grr_cmake_controller) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/jazzy/include/rcpputils/rcppmath/clamp.hpp:41:21:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kdeclared here\n'}
+[4.885907] (grr_cmake_controller) StderrLine: {'line': b'   41 | constexpr const T & \x1b[01;36m\x1b[Kclamp\x1b[m\x1b[K(const T & v, const T & lo, const T & hi)\n'}
+[4.886062] (grr_cmake_controller) StderrLine: {'line': b'      |                     \x1b[01;36m\x1b[K^~~~~\x1b[m\x1b[K\n'}
+[4.927192] (-) TimerEvent: {}
+[5.028086] (-) TimerEvent: {}
+[5.129010] (-) TimerEvent: {}
+[5.229879] (-) TimerEvent: {}
+[5.299170] (grr_cmake_controller) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/ros2_ws/jazzy_ws/src/grr_cmake_controller/include/grr_cmake_controller/odometry.hpp:34\x1b[m\x1b[K,\n'}
+[5.299837] (grr_cmake_controller) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/ros2_ws/jazzy_ws/src/grr_cmake_controller/src/odometry.cpp:19\x1b[m\x1b[K:\n'}
+[5.300071] (grr_cmake_controller) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/jazzy/include/realtime_tools/realtime_tools/realtime_box.h:25:2:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[K#warning "This header include is deprecated. Please update your code to use \'realtime_box.hpp\' header." [\x1b[01;35m\x1b[K-Wcpp\x1b[m\x1b[K]\n'}
+[5.300294] (grr_cmake_controller) StderrLine: {'line': b'   25 | #\x1b[01;35m\x1b[Kwarning\x1b[m\x1b[K \\\n'}
+[5.300472] (grr_cmake_controller) StderrLine: {'line': b'      |  \x1b[01;35m\x1b[K^~~~~~~\x1b[m\x1b[K\n'}
+[5.300642] (grr_cmake_controller) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/ros2_ws/jazzy_ws/src/grr_cmake_controller/include/grr_cmake_controller/odometry.hpp:35\x1b[m\x1b[K:\n'}
+[5.300910] (grr_cmake_controller) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/jazzy/include/realtime_tools/realtime_tools/realtime_buffer.h:25:2:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[K#warning "This header include is deprecated. Please update your code to use \'realtime_buffer.hpp\' header." [\x1b[01;35m\x1b[K-Wcpp\x1b[m\x1b[K]\n'}
+[5.301126] (grr_cmake_controller) StderrLine: {'line': b'   25 | #\x1b[01;35m\x1b[Kwarning\x1b[m\x1b[K \\\n'}
+[5.301300] (grr_cmake_controller) StderrLine: {'line': b'      |  \x1b[01;35m\x1b[K^~~~~~~\x1b[m\x1b[K\n'}
+[5.301463] (grr_cmake_controller) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/ros2_ws/jazzy_ws/src/grr_cmake_controller/include/grr_cmake_controller/odometry.hpp:36\x1b[m\x1b[K:\n'}
+[5.301680] (grr_cmake_controller) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/jazzy/include/realtime_tools/realtime_tools/realtime_publisher.h:25:2:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[K#warning "This header include is deprecated. Please update your code to use \'realtime_publisher.hpp\' header." [\x1b[01;35m\x1b[K-Wcpp\x1b[m\x1b[K]\n'}
+[5.301859] (grr_cmake_controller) StderrLine: {'line': b'   25 | #\x1b[01;35m\x1b[Kwarning\x1b[m\x1b[K \\\n'}
+[5.302019] (grr_cmake_controller) StderrLine: {'line': b'      |  \x1b[01;35m\x1b[K^~~~~~~\x1b[m\x1b[K\n'}
+[5.330071] (-) TimerEvent: {}
+[5.430735] (-) TimerEvent: {}
+[5.444986] (grr_cmake_controller) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/ros2_ws/jazzy_ws/src/grr_cmake_controller/include/grr_cmake_controller/odometry.hpp:34\x1b[m\x1b[K,\n'}
+[5.445523] (grr_cmake_controller) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/ros2_ws/jazzy_ws/src/grr_cmake_controller/include/grr_cmake_controller/grr_cmake_controller.hpp:31\x1b[m\x1b[K,\n'}
+[5.445725] (grr_cmake_controller) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/ros2_ws/jazzy_ws/src/grr_cmake_controller/src/grr_cmake_controller.cpp:25\x1b[m\x1b[K:\n'}
+[5.445905] (grr_cmake_controller) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/jazzy/include/realtime_tools/realtime_tools/realtime_box.h:25:2:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[K#warning "This header include is deprecated. Please update your code to use \'realtime_box.hpp\' header." [\x1b[01;35m\x1b[K-Wcpp\x1b[m\x1b[K]\n'}
+[5.446083] (grr_cmake_controller) StderrLine: {'line': b'   25 | #\x1b[01;35m\x1b[Kwarning\x1b[m\x1b[K \\\n'}
+[5.446251] (grr_cmake_controller) StderrLine: {'line': b'      |  \x1b[01;35m\x1b[K^~~~~~~\x1b[m\x1b[K\n'}
+[5.446524] (grr_cmake_controller) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/ros2_ws/jazzy_ws/src/grr_cmake_controller/include/grr_cmake_controller/odometry.hpp:35\x1b[m\x1b[K:\n'}
+[5.446711] (grr_cmake_controller) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/jazzy/include/realtime_tools/realtime_tools/realtime_buffer.h:25:2:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[K#warning "This header include is deprecated. Please update your code to use \'realtime_buffer.hpp\' header." [\x1b[01;35m\x1b[K-Wcpp\x1b[m\x1b[K]\n'}
+[5.446914] (grr_cmake_controller) StderrLine: {'line': b'   25 | #\x1b[01;35m\x1b[Kwarning\x1b[m\x1b[K \\\n'}
+[5.447073] (grr_cmake_controller) StderrLine: {'line': b'      |  \x1b[01;35m\x1b[K^~~~~~~\x1b[m\x1b[K\n'}
+[5.447327] (grr_cmake_controller) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/ros2_ws/jazzy_ws/src/grr_cmake_controller/include/grr_cmake_controller/odometry.hpp:36\x1b[m\x1b[K:\n'}
+[5.447581] (grr_cmake_controller) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/jazzy/include/realtime_tools/realtime_tools/realtime_publisher.h:25:2:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[K#warning "This header include is deprecated. Please update your code to use \'realtime_publisher.hpp\' header." [\x1b[01;35m\x1b[K-Wcpp\x1b[m\x1b[K]\n'}
+[5.447787] (grr_cmake_controller) StderrLine: {'line': b'   25 | #\x1b[01;35m\x1b[Kwarning\x1b[m\x1b[K \\\n'}
+[5.447998] (grr_cmake_controller) StderrLine: {'line': b'      |  \x1b[01;35m\x1b[K^~~~~~~\x1b[m\x1b[K\n'}
+[5.530932] (-) TimerEvent: {}
+[5.631683] (-) TimerEvent: {}
+[5.732382] (-) TimerEvent: {}
+[5.833086] (-) TimerEvent: {}
+[5.933830] (-) TimerEvent: {}
+[6.034609] (-) TimerEvent: {}
+[6.135382] (-) TimerEvent: {}
+[6.236151] (-) TimerEvent: {}
+[6.336859] (-) TimerEvent: {}
+[6.437593] (-) TimerEvent: {}
+[6.538696] (-) TimerEvent: {}
+[6.639762] (-) TimerEvent: {}
+[6.740530] (-) TimerEvent: {}
+[6.841266] (-) TimerEvent: {}
+[6.942039] (-) TimerEvent: {}
+[7.043774] (-) TimerEvent: {}
+[7.145004] (-) TimerEvent: {}
+[7.245725] (-) TimerEvent: {}
+[7.346496] (-) TimerEvent: {}
+[7.447233] (-) TimerEvent: {}
+[7.547984] (-) TimerEvent: {}
+[7.648713] (-) TimerEvent: {}
+[7.749451] (-) TimerEvent: {}
+[7.851956] (-) TimerEvent: {}
+[7.954323] (-) TimerEvent: {}
+[8.056622] (-) TimerEvent: {}
+[8.159033] (-) TimerEvent: {}
+[8.259775] (-) TimerEvent: {}
+[8.360453] (-) TimerEvent: {}
+[8.461157] (-) TimerEvent: {}
+[8.561853] (-) TimerEvent: {}
+[8.662573] (-) TimerEvent: {}
+[8.763283] (-) TimerEvent: {}
+[8.863973] (-) TimerEvent: {}
+[8.964694] (-) TimerEvent: {}
+[9.066897] (-) TimerEvent: {}
+[9.169036] (-) TimerEvent: {}
+[9.269919] (-) TimerEvent: {}
+[9.370621] (-) TimerEvent: {}
+[9.474862] (-) TimerEvent: {}
+[9.575600] (-) TimerEvent: {}
+[9.676316] (-) TimerEvent: {}
+[9.777036] (-) TimerEvent: {}
+[9.878696] (-) TimerEvent: {}
+[9.980491] (-) TimerEvent: {}
+[10.081845] (-) TimerEvent: {}
+[10.182538] (-) TimerEvent: {}
+[10.283379] (-) TimerEvent: {}
+[10.384655] (-) TimerEvent: {}
+[10.485480] (-) TimerEvent: {}
+[10.586192] (-) TimerEvent: {}
+[10.687010] (-) TimerEvent: {}
+[10.787855] (-) TimerEvent: {}
+[10.888665] (-) TimerEvent: {}
+[10.989447] (-) TimerEvent: {}
+[11.090232] (-) TimerEvent: {}
+[11.192843] (-) TimerEvent: {}
+[11.293563] (-) TimerEvent: {}
+[11.395190] (-) TimerEvent: {}
+[11.497118] (-) TimerEvent: {}
+[11.597845] (-) TimerEvent: {}
+[11.700467] (-) TimerEvent: {}
+[11.802869] (-) TimerEvent: {}
+[11.904886] (-) TimerEvent: {}
+[12.005604] (-) TimerEvent: {}
+[12.107589] (-) TimerEvent: {}
+[12.209416] (-) TimerEvent: {}
+[12.310134] (-) TimerEvent: {}
+[12.401778] (grr_cmake_controller) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/opt/ros/jazzy/include/realtime_tools/realtime_tools/realtime_box.h:18\x1b[m\x1b[K:\n'}
+[12.402378] (grr_cmake_controller) StderrLine: {'line': b"\x1b[01m\x1b[K/opt/ros/jazzy/include/realtime_tools/realtime_tools/realtime_box.hpp:40:151:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[K#pragma message: 'RealtimeBox' is deprecated. Please update your code to use 'realtime_thread_safe_box.hpp' header, and class name 'RealtimeThreadSafeBox' instead.\x1b[m\x1b[K\xe2\x80\x99\n"}
+[12.402621] (grr_cmake_controller) StderrLine: {'line': b'   40 |   "\'RealtimeBox\' is deprecated. Please update your code to use \'realtime_thread_safe_box.hpp\' header, and class name \'RealtimeThreadSafeBox\' instead."\x1b[01;36m\x1b[K)\x1b[m\x1b[K  //NOLINT\n'}
+[12.402821] (grr_cmake_controller) StderrLine: {'line': b'      |                                                                                                                                                       \x1b[01;36m\x1b[K^\x1b[m\x1b[K\n'}
+[12.410331] (-) TimerEvent: {}
+[12.511436] (-) TimerEvent: {}
+[12.612333] (-) TimerEvent: {}
+[12.714532] (-) TimerEvent: {}
+[12.815740] (-) TimerEvent: {}
+[12.916829] (-) TimerEvent: {}
+[13.018254] (-) TimerEvent: {}
+[13.119783] (-) TimerEvent: {}
+[13.220470] (-) TimerEvent: {}
+[13.321165] (-) TimerEvent: {}
+[13.421869] (-) TimerEvent: {}
+[13.522568] (-) TimerEvent: {}
+[13.586734] (grr_cmake_controller) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/opt/ros/jazzy/include/realtime_tools/realtime_tools/realtime_box.h:18\x1b[m\x1b[K:\n'}
+[13.587551] (grr_cmake_controller) StderrLine: {'line': b"\x1b[01m\x1b[K/opt/ros/jazzy/include/realtime_tools/realtime_tools/realtime_box.hpp:40:151:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[K#pragma message: 'RealtimeBox' is deprecated. Please update your code to use 'realtime_thread_safe_box.hpp' header, and class name 'RealtimeThreadSafeBox' instead.\x1b[m\x1b[K\xe2\x80\x99\n"}
+[13.587946] (grr_cmake_controller) StderrLine: {'line': b'   40 |   "\'RealtimeBox\' is deprecated. Please update your code to use \'realtime_thread_safe_box.hpp\' header, and class name \'RealtimeThreadSafeBox\' instead."\x1b[01;36m\x1b[K)\x1b[m\x1b[K  //NOLINT\n'}
+[13.588270] (grr_cmake_controller) StderrLine: {'line': b'      |                                                                                                                                                       \x1b[01;36m\x1b[K^\x1b[m\x1b[K\n'}
+[13.622793] (-) TimerEvent: {}
+[13.724532] (-) TimerEvent: {}
+[13.826343] (-) TimerEvent: {}
+[13.928065] (-) TimerEvent: {}
+[14.030438] (-) TimerEvent: {}
+[14.132806] (-) TimerEvent: {}
+[14.162253] (grr_cmake_controller) StderrLine: {'line': b'\x1b[01m\x1b[K/ros2_ws/jazzy_ws/src/grr_cmake_controller/src/grr_cmake_controller.cpp:\x1b[m\x1b[K In member function \xe2\x80\x98\x1b[01m\x1b[Kvoid grr_cmake_controller::Wheel::\x1b[01;32m\x1b[Kset_velocity\x1b[m\x1b[K(double)\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[14.163083] (grr_cmake_controller) StderrLine: {'line': b'\x1b[01m\x1b[K/ros2_ws/jazzy_ws/src/grr_cmake_controller/src/grr_cmake_controller.cpp:57:36:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kignoring return value of \xe2\x80\x98\x1b[01m\x1b[Kbool hardware_interface::LoanedCommandInterface::\x1b[01;32m\x1b[Kset_value\x1b[m\x1b[K(const T&, unsigned int) \x1b[35m\x1b[K[with T = double]\x1b[m\x1b[K\x1b[m\x1b[K\xe2\x80\x99, declared with attribute \xe2\x80\x98\x1b[01m\x1b[Knodiscard\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K-Wunused-result\x1b[m\x1b[K]\n'}
+[14.163475] (grr_cmake_controller) StderrLine: {'line': b'   57 |   \x1b[01;35m\x1b[Kcommand_velocity_.get().set_value(velocity)\x1b[m\x1b[K;\n'}
+[14.163899] (grr_cmake_controller) StderrLine: {'line': b'      |   \x1b[01;35m\x1b[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~\x1b[m\x1b[K\n'}
+[14.164217] (grr_cmake_controller) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/opt/ros/jazzy/include/controller_interface/controller_interface/controller_interface_base.hpp:29\x1b[m\x1b[K,\n'}
+[14.164404] (grr_cmake_controller) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/jazzy/include/controller_interface/controller_interface/controller_interface.hpp:21\x1b[m\x1b[K,\n'}
+[14.164576] (grr_cmake_controller) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/ros2_ws/jazzy_ws/src/grr_cmake_controller/include/grr_cmake_controller/grr_cmake_controller.hpp:29\x1b[m\x1b[K:\n'}
+[14.164744] (grr_cmake_controller) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/jazzy/include/hardware_interface/hardware_interface/loaned_command_interface.hpp:113:22:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kdeclared here\n'}
+[14.164910] (grr_cmake_controller) StderrLine: {'line': b'  113 |   [[nodiscard]] bool \x1b[01;36m\x1b[Kset_value\x1b[m\x1b[K(const T & value, unsigned int max_tries = 10)\n'}
+[14.165071] (grr_cmake_controller) StderrLine: {'line': b'      |                      \x1b[01;36m\x1b[K^~~~~~~~~\x1b[m\x1b[K\n'}
+[14.165228] (grr_cmake_controller) StderrLine: {'line': b'\x1b[01m\x1b[K/ros2_ws/jazzy_ws/src/grr_cmake_controller/src/grr_cmake_controller.cpp:\x1b[m\x1b[K In member function \xe2\x80\x98\x1b[01m\x1b[Kdouble grr_cmake_controller::Wheel::\x1b[01;32m\x1b[Kget_velocity\x1b[m\x1b[K()\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[14.165391] (grr_cmake_controller) StderrLine: {'line': b'\x1b[01m\x1b[K/ros2_ws/jazzy_ws/src/grr_cmake_controller/src/grr_cmake_controller.cpp:61:41:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kdouble hardware_interface::LoanedStateInterface::\x1b[01;32m\x1b[Kget_value\x1b[m\x1b[K() const\x1b[m\x1b[K\xe2\x80\x99 is deprecated: Use std::optional<T> get_optional() instead to retrieve the value. This method will be removed by the ROS 2 Kilted Kaiju release. [\x1b[01;35m\x1b[K-Wdeprecated-declarations\x1b[m\x1b[K]\n'}
+[14.165610] (grr_cmake_controller) StderrLine: {'line': b'   61 |   return \x1b[01;35m\x1b[Kstate_velocity_.get().get_value()\x1b[m\x1b[K;\n'}
+[14.165774] (grr_cmake_controller) StderrLine: {'line': b'      |          \x1b[01;35m\x1b[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~\x1b[m\x1b[K\n'}
+[14.165931] (grr_cmake_controller) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/opt/ros/jazzy/include/controller_interface/controller_interface/controller_interface_base.hpp:30\x1b[m\x1b[K:\n'}
+[14.166087] (grr_cmake_controller) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/jazzy/include/hardware_interface/hardware_interface/loaned_state_interface.hpp:94:10:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kdeclared here\n'}
+[14.166246] (grr_cmake_controller) StderrLine: {'line': b'   94 |   double \x1b[01;36m\x1b[Kget_value\x1b[m\x1b[K() const\n'}
+[14.166401] (grr_cmake_controller) StderrLine: {'line': b'      |          \x1b[01;36m\x1b[K^~~~~~~~~\x1b[m\x1b[K\n'}
+[14.183856] (grr_cmake_controller) StderrLine: {'line': b'\x1b[01m\x1b[K/ros2_ws/jazzy_ws/src/grr_cmake_controller/src/grr_cmake_controller.cpp:\x1b[m\x1b[K In member function \xe2\x80\x98\x1b[01m\x1b[Kvirtual controller_interface::return_type grr_cmake_controller::MecanumController::\x1b[01;32m\x1b[Kupdate\x1b[m\x1b[K(const rclcpp::Time&, const rclcpp::Duration&)\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[14.184674] (grr_cmake_controller) StderrLine: {'line': b'\x1b[01m\x1b[K/ros2_ws/jazzy_ws/src/grr_cmake_controller/src/grr_cmake_controller.cpp:130:33:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kstd::enable_if_t<is_ptr_or_smart_ptr<U>, void> realtime_tools::RealtimeThreadSafeBox<T, mutex_type>::\x1b[01;32m\x1b[Kget\x1b[m\x1b[K(T&) const \x1b[35m\x1b[K[with U = std::shared_ptr<geometry_msgs::msg::TwistStamped_<std::allocator<void> > >; T = std::shared_ptr<geometry_msgs::msg::TwistStamped_<std::allocator<void> > >; mutex_type = std::mutex; std::enable_if_t<is_ptr_or_smart_ptr<U>, void> = void]\x1b[m\x1b[K\x1b[m\x1b[K\xe2\x80\x99 is deprecated: Use get(const std::function<void(const T &)> & func) instead! [\x1b[01;35m\x1b[K-Wdeprecated-declarations\x1b[m\x1b[K]\n'}
+[14.184965] (grr_cmake_controller) StderrLine: {'line': b'  130 |   \x1b[01;35m\x1b[Kreceived_velocity_msg_ptr_.get(last_command_msg)\x1b[m\x1b[K;\n'}
+[14.185158] (grr_cmake_controller) StderrLine: {'line': b'      |   \x1b[01;35m\x1b[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[14.185338] (grr_cmake_controller) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/opt/ros/jazzy/include/realtime_tools/realtime_tools/realtime_box.hpp:36\x1b[m\x1b[K:\n'}
+[14.185510] (grr_cmake_controller) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/jazzy/include/realtime_tools/realtime_tools/realtime_thread_safe_box.hpp:353:59:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kdeclared here\n'}
+[14.185677] (grr_cmake_controller) StderrLine: {'line': b'  353 |   typename std::enable_if_t<is_ptr_or_smart_ptr<U>, void> \x1b[01;36m\x1b[Kget\x1b[m\x1b[K(T & in) const\n'}
+[14.185839] (grr_cmake_controller) StderrLine: {'line': b'      |                                                           \x1b[01;36m\x1b[K^~~\x1b[m\x1b[K\n'}
+[14.197747] (grr_cmake_controller) StderrLine: {'line': b'\x1b[01m\x1b[K/ros2_ws/jazzy_ws/src/grr_cmake_controller/src/grr_cmake_controller.cpp:\x1b[m\x1b[K In member function \xe2\x80\x98\x1b[01m\x1b[Kvirtual grr_cmake_controller::CallbackReturn grr_cmake_controller::MecanumController::\x1b[01;32m\x1b[Kon_configure\x1b[m\x1b[K(const rclcpp_lifecycle::State&)\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[14.198530] (grr_cmake_controller) StderrLine: {'line': b'\x1b[01m\x1b[K/ros2_ws/jazzy_ws/src/grr_cmake_controller/src/grr_cmake_controller.cpp:238:33:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kstd::enable_if_t<is_ptr_or_smart_ptr<U>, void> realtime_tools::RealtimeThreadSafeBox<T, mutex_type>::\x1b[01;32m\x1b[Kset\x1b[m\x1b[K(const T&) \x1b[35m\x1b[K[with U = std::shared_ptr<geometry_msgs::msg::TwistStamped_<std::allocator<void> > >; T = std::shared_ptr<geometry_msgs::msg::TwistStamped_<std::allocator<void> > >; mutex_type = std::mutex; std::enable_if_t<is_ptr_or_smart_ptr<U>, void> = void]\x1b[m\x1b[K\x1b[m\x1b[K\xe2\x80\x99 is deprecated: Use set(const std::function<void(T &)> & func) instead! [\x1b[01;35m\x1b[K-Wdeprecated-declarations\x1b[m\x1b[K]\n'}
+[14.198823] (grr_cmake_controller) StderrLine: {'line': b'  238 |   \x1b[01;35m\x1b[Kreceived_velocity_msg_ptr_.set(std::make_shared<Twist>(empty_twist))\x1b[m\x1b[K;\n'}
+[14.199021] (grr_cmake_controller) StderrLine: {'line': b'      |   \x1b[01;35m\x1b[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[14.199202] (grr_cmake_controller) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/jazzy/include/realtime_tools/realtime_tools/realtime_thread_safe_box.hpp:273:59:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kdeclared here\n'}
+[14.199416] (grr_cmake_controller) StderrLine: {'line': b'  273 |   typename std::enable_if_t<is_ptr_or_smart_ptr<U>, void> \x1b[01;36m\x1b[Kset\x1b[m\x1b[K(const T & value)\n'}
+[14.199589] (grr_cmake_controller) StderrLine: {'line': b'      |                                                           \x1b[01;36m\x1b[K^~~\x1b[m\x1b[K\n'}
+[14.203428] (grr_cmake_controller) StderrLine: {'line': b'\x1b[01m\x1b[K/ros2_ws/jazzy_ws/src/grr_cmake_controller/src/grr_cmake_controller.cpp:\x1b[m\x1b[K In lambda function:\n'}
+[14.204028] (grr_cmake_controller) StderrLine: {'line': b'\x1b[01m\x1b[K/ros2_ws/jazzy_ws/src/grr_cmake_controller/src/grr_cmake_controller.cpp:259:39:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kstd::enable_if_t<is_ptr_or_smart_ptr<U>, void> realtime_tools::RealtimeThreadSafeBox<T, mutex_type>::\x1b[01;32m\x1b[Kset\x1b[m\x1b[K(const T&) \x1b[35m\x1b[K[with U = std::shared_ptr<geometry_msgs::msg::TwistStamped_<std::allocator<void> > >; T = std::shared_ptr<geometry_msgs::msg::TwistStamped_<std::allocator<void> > >; mutex_type = std::mutex; std::enable_if_t<is_ptr_or_smart_ptr<U>, void> = void]\x1b[m\x1b[K\x1b[m\x1b[K\xe2\x80\x99 is deprecated: Use set(const std::function<void(T &)> & func) instead! [\x1b[01;35m\x1b[K-Wdeprecated-declarations\x1b[m\x1b[K]\n'}
+[14.204310] (grr_cmake_controller) StderrLine: {'line': b'  259 |         \x1b[01;35m\x1b[Kreceived_velocity_msg_ptr_.set(std::move(msg))\x1b[m\x1b[K;\n'}
+[14.204513] (grr_cmake_controller) StderrLine: {'line': b'      |         \x1b[01;35m\x1b[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[14.204695] (grr_cmake_controller) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/jazzy/include/realtime_tools/realtime_tools/realtime_thread_safe_box.hpp:273:59:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kdeclared here\n'}
+[14.204864] (grr_cmake_controller) StderrLine: {'line': b'  273 |   typename std::enable_if_t<is_ptr_or_smart_ptr<U>, void> \x1b[01;36m\x1b[Kset\x1b[m\x1b[K(const T & value)\n'}
+[14.205036] (grr_cmake_controller) StderrLine: {'line': b'      |                                                           \x1b[01;36m\x1b[K^~~\x1b[m\x1b[K\n'}
+[14.212678] (grr_cmake_controller) StderrLine: {'line': b'\x1b[01m\x1b[K/ros2_ws/jazzy_ws/src/grr_cmake_controller/src/grr_cmake_controller.cpp:\x1b[m\x1b[K In lambda function:\n'}
+[14.213339] (grr_cmake_controller) StderrLine: {'line': b'\x1b[01m\x1b[K/ros2_ws/jazzy_ws/src/grr_cmake_controller/src/grr_cmake_controller.cpp:275:39:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kstd::enable_if_t<is_ptr_or_smart_ptr<U>, void> realtime_tools::RealtimeThreadSafeBox<T, mutex_type>::\x1b[01;32m\x1b[Kget\x1b[m\x1b[K(T&) const \x1b[35m\x1b[K[with U = std::shared_ptr<geometry_msgs::msg::TwistStamped_<std::allocator<void> > >; T = std::shared_ptr<geometry_msgs::msg::TwistStamped_<std::allocator<void> > >; mutex_type = std::mutex; std::enable_if_t<is_ptr_or_smart_ptr<U>, void> = void]\x1b[m\x1b[K\x1b[m\x1b[K\xe2\x80\x99 is deprecated: Use get(const std::function<void(const T &)> & func) instead! [\x1b[01;35m\x1b[K-Wdeprecated-declarations\x1b[m\x1b[K]\n'}
+[14.213624] (grr_cmake_controller) StderrLine: {'line': b'  275 |         \x1b[01;35m\x1b[Kreceived_velocity_msg_ptr_.get(twist_stamped)\x1b[m\x1b[K;\n'}
+[14.213816] (grr_cmake_controller) StderrLine: {'line': b'      |         \x1b[01;35m\x1b[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[14.213987] (grr_cmake_controller) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/jazzy/include/realtime_tools/realtime_tools/realtime_thread_safe_box.hpp:353:59:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kdeclared here\n'}
+[14.214155] (grr_cmake_controller) StderrLine: {'line': b'  353 |   typename std::enable_if_t<is_ptr_or_smart_ptr<U>, void> \x1b[01;36m\x1b[Kget\x1b[m\x1b[K(T & in) const\n'}
+[14.214314] (grr_cmake_controller) StderrLine: {'line': b'      |                                                           \x1b[01;36m\x1b[K^~~\x1b[m\x1b[K\n'}
+[14.226123] (grr_cmake_controller) StderrLine: {'line': b'\x1b[01m\x1b[K/ros2_ws/jazzy_ws/src/grr_cmake_controller/src/grr_cmake_controller.cpp:\x1b[m\x1b[K In member function \xe2\x80\x98\x1b[01m\x1b[Kvirtual grr_cmake_controller::CallbackReturn grr_cmake_controller::MecanumController::\x1b[01;32m\x1b[Kon_cleanup\x1b[m\x1b[K(const rclcpp_lifecycle::State&)\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[14.233001] (-) TimerEvent: {}
+[14.235661] (grr_cmake_controller) StderrLine: {'line': b'\x1b[01m\x1b[K/ros2_ws/jazzy_ws/src/grr_cmake_controller/src/grr_cmake_controller.cpp:328:33:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kstd::enable_if_t<is_ptr_or_smart_ptr<U>, void> realtime_tools::RealtimeThreadSafeBox<T, mutex_type>::\x1b[01;32m\x1b[Kset\x1b[m\x1b[K(const T&) \x1b[35m\x1b[K[with U = std::shared_ptr<geometry_msgs::msg::TwistStamped_<std::allocator<void> > >; T = std::shared_ptr<geometry_msgs::msg::TwistStamped_<std::allocator<void> > >; mutex_type = std::mutex; std::enable_if_t<is_ptr_or_smart_ptr<U>, void> = void]\x1b[m\x1b[K\x1b[m\x1b[K\xe2\x80\x99 is deprecated: Use set(const std::function<void(T &)> & func) instead! [\x1b[01;35m\x1b[K-Wdeprecated-declarations\x1b[m\x1b[K]\n'}
+[14.236212] (grr_cmake_controller) StderrLine: {'line': b'  328 |   \x1b[01;35m\x1b[Kreceived_velocity_msg_ptr_.set(std::make_shared<Twist>())\x1b[m\x1b[K;\n'}
+[14.236430] (grr_cmake_controller) StderrLine: {'line': b'      |   \x1b[01;35m\x1b[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[14.236618] (grr_cmake_controller) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/jazzy/include/realtime_tools/realtime_tools/realtime_thread_safe_box.hpp:273:59:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kdeclared here\n'}
+[14.236807] (grr_cmake_controller) StderrLine: {'line': b'  273 |   typename std::enable_if_t<is_ptr_or_smart_ptr<U>, void> \x1b[01;36m\x1b[Kset\x1b[m\x1b[K(const T & value)\n'}
+[14.236982] (grr_cmake_controller) StderrLine: {'line': b'      |                                                           \x1b[01;36m\x1b[K^~~\x1b[m\x1b[K\n'}
+[14.333210] (-) TimerEvent: {}
+[14.434913] (-) TimerEvent: {}
+[14.542108] (-) TimerEvent: {}
+[14.643571] (-) TimerEvent: {}
+[14.745006] (-) TimerEvent: {}
+[14.846461] (-) TimerEvent: {}
+[14.947934] (-) TimerEvent: {}
+[15.071508] (-) TimerEvent: {}
+[15.172202] (-) TimerEvent: {}
+[15.272935] (-) TimerEvent: {}
+[15.373623] (-) TimerEvent: {}
+[15.474327] (-) TimerEvent: {}
+[15.575030] (-) TimerEvent: {}
+[15.675733] (-) TimerEvent: {}
+[15.776418] (-) TimerEvent: {}
+[15.877118] (-) TimerEvent: {}
+[15.977866] (-) TimerEvent: {}
+[16.078569] (-) TimerEvent: {}
+[16.179272] (-) TimerEvent: {}
+[16.280024] (-) TimerEvent: {}
+[16.380738] (-) TimerEvent: {}
+[16.482305] (-) TimerEvent: {}
+[16.584123] (-) TimerEvent: {}
+[16.685118] (-) TimerEvent: {}
+[16.785837] (-) TimerEvent: {}
+[16.886580] (-) TimerEvent: {}
+[16.987357] (-) TimerEvent: {}
+[17.088082] (-) TimerEvent: {}
+[17.188777] (-) TimerEvent: {}
+[17.291022] (-) TimerEvent: {}
+[17.392505] (-) TimerEvent: {}
+[17.493946] (-) TimerEvent: {}
+[17.594677] (-) TimerEvent: {}
+[17.695413] (-) TimerEvent: {}
+[17.797732] (-) TimerEvent: {}
+[17.900097] (-) TimerEvent: {}
+[18.002414] (-) TimerEvent: {}
+[18.104197] (-) TimerEvent: {}
+[18.206520] (-) TimerEvent: {}
+[18.309068] (-) TimerEvent: {}
+[18.411516] (-) TimerEvent: {}
+[18.512239] (-) TimerEvent: {}
+[18.614853] (-) TimerEvent: {}
+[18.717112] (-) TimerEvent: {}
+[18.817897] (-) TimerEvent: {}
+[18.918666] (-) TimerEvent: {}
+[19.019429] (-) TimerEvent: {}
+[19.120095] (-) TimerEvent: {}
+[19.220767] (-) TimerEvent: {}
+[19.321454] (-) TimerEvent: {}
+[19.423787] (-) TimerEvent: {}
+[19.526242] (-) TimerEvent: {}
+[19.628610] (-) TimerEvent: {}
+[19.731103] (-) TimerEvent: {}
+[19.833627] (-) TimerEvent: {}
+[19.936136] (-) TimerEvent: {}
+[20.038627] (-) TimerEvent: {}
+[20.140979] (-) TimerEvent: {}
+[20.243401] (-) TimerEvent: {}
+[20.344102] (-) TimerEvent: {}
+[20.444790] (-) TimerEvent: {}
+[20.545758] (-) TimerEvent: {}
+[20.646458] (-) TimerEvent: {}
+[20.747131] (-) TimerEvent: {}
+[20.849619] (-) TimerEvent: {}
+[20.952101] (-) TimerEvent: {}
+[21.054375] (-) TimerEvent: {}
+[21.156777] (-) TimerEvent: {}
+[21.259206] (-) TimerEvent: {}
+[21.361620] (-) TimerEvent: {}
+[21.464446] (-) TimerEvent: {}
+[21.566742] (-) TimerEvent: {}
+[21.669084] (-) TimerEvent: {}
+[21.771330] (-) TimerEvent: {}
+[21.873493] (-) TimerEvent: {}
+[21.974712] (-) TimerEvent: {}
+[22.075406] (-) TimerEvent: {}
+[22.176350] (-) TimerEvent: {}
+[22.277009] (-) TimerEvent: {}
+[22.377709] (-) TimerEvent: {}
+[22.478392] (-) TimerEvent: {}
+[22.579250] (-) TimerEvent: {}
+[22.680031] (-) TimerEvent: {}
+[22.780709] (-) TimerEvent: {}
+[22.881375] (-) TimerEvent: {}
+[22.982051] (-) TimerEvent: {}
+[23.082725] (-) TimerEvent: {}
+[23.183420] (-) TimerEvent: {}
+[23.284071] (-) TimerEvent: {}
+[23.384713] (-) TimerEvent: {}
+[23.485349] (-) TimerEvent: {}
+[23.586078] (-) TimerEvent: {}
+[23.686756] (-) TimerEvent: {}
+[23.787447] (-) TimerEvent: {}
+[23.888091] (-) TimerEvent: {}
+[23.988730] (-) TimerEvent: {}
+[24.089361] (-) TimerEvent: {}
+[24.190006] (-) TimerEvent: {}
+[24.290727] (-) TimerEvent: {}
+[24.391457] (-) TimerEvent: {}
+[24.492242] (-) TimerEvent: {}
+[24.592966] (-) TimerEvent: {}
+[24.693653] (-) TimerEvent: {}
+[24.794366] (-) TimerEvent: {}
+[24.895106] (-) TimerEvent: {}
+[24.995778] (-) TimerEvent: {}
+[25.096394] (-) TimerEvent: {}
+[25.197014] (-) TimerEvent: {}
+[25.297792] (-) TimerEvent: {}
+[25.398449] (-) TimerEvent: {}
+[25.499126] (-) TimerEvent: {}
+[25.599806] (-) TimerEvent: {}
+[25.700444] (-) TimerEvent: {}
+[25.801073] (-) TimerEvent: {}
+[25.901717] (-) TimerEvent: {}
+[26.002345] (-) TimerEvent: {}
+[26.102976] (-) TimerEvent: {}
+[26.203646] (-) TimerEvent: {}
+[26.304278] (-) TimerEvent: {}
+[26.404888] (-) TimerEvent: {}
+[26.505538] (-) TimerEvent: {}
+[26.606184] (-) TimerEvent: {}
+[26.706843] (-) TimerEvent: {}
+[26.807450] (-) TimerEvent: {}
+[26.908080] (-) TimerEvent: {}
+[27.008708] (-) TimerEvent: {}
+[27.109351] (-) TimerEvent: {}
+[27.209971] (-) TimerEvent: {}
+[27.310587] (-) TimerEvent: {}
+[27.411198] (-) TimerEvent: {}
+[27.511846] (-) TimerEvent: {}
+[27.612491] (-) TimerEvent: {}
+[27.713126] (-) TimerEvent: {}
+[27.813774] (-) TimerEvent: {}
+[27.914396] (-) TimerEvent: {}
+[28.015051] (-) TimerEvent: {}
+[28.115705] (-) TimerEvent: {}
+[28.216338] (-) TimerEvent: {}
+[28.316987] (-) TimerEvent: {}
+[28.417686] (-) TimerEvent: {}
+[28.518404] (-) TimerEvent: {}
+[28.619082] (-) TimerEvent: {}
+[28.719793] (-) TimerEvent: {}
+[28.820435] (-) TimerEvent: {}
+[28.921069] (-) TimerEvent: {}
+[29.021708] (-) TimerEvent: {}
+[29.122360] (-) TimerEvent: {}
+[29.223001] (-) TimerEvent: {}
+[29.323771] (-) TimerEvent: {}
+[29.424488] (-) TimerEvent: {}
+[29.525194] (-) TimerEvent: {}
+[29.625937] (-) TimerEvent: {}
+[29.726614] (-) TimerEvent: {}
+[29.828953] (-) TimerEvent: {}
+[29.931192] (-) TimerEvent: {}
+[30.033374] (-) TimerEvent: {}
+[30.135501] (-) TimerEvent: {}
+[30.237629] (-) TimerEvent: {}
+[30.339825] (-) TimerEvent: {}
+[30.442025] (-) TimerEvent: {}
+[30.544374] (-) TimerEvent: {}
+[30.646854] (-) TimerEvent: {}
+[30.717787] (grr_hardware) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking CXX shared library libgrr_hardware.so\x1b[0m\n'}
+[30.747039] (-) TimerEvent: {}
+[30.848421] (-) TimerEvent: {}
+[30.949197] (-) TimerEvent: {}
+[31.049884] (-) TimerEvent: {}
+[31.150633] (-) TimerEvent: {}
+[31.251279] (-) TimerEvent: {}
+[31.351952] (-) TimerEvent: {}
+[31.452655] (-) TimerEvent: {}
+[31.553318] (-) TimerEvent: {}
+[31.654050] (-) TimerEvent: {}
+[31.754770] (-) TimerEvent: {}
+[31.855465] (-) TimerEvent: {}
+[31.956105] (-) TimerEvent: {}
+[32.005222] (grr_hardware) StdoutLine: {'line': b'[100%] Built target grr_hardware\n'}
+[32.028073] (grr_hardware) CommandEnded: {'returncode': 0}
+[32.029413] (grr_hardware) JobProgress: {'identifier': 'grr_hardware', 'progress': 'install'}
+[32.029952] (grr_hardware) Command: {'cmd': ['/usr/bin/cmake', '--install', '/ros2_ws/jazzy_ws/build/grr_hardware'], 'cwd': '/ros2_ws/jazzy_ws/build/grr_hardware', 'env': OrderedDict({'HOSTNAME': 'c1aa08e4ae39', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/opt/ros/jazzy/lib/aarch64-linux-gnu:/opt/ros/jazzy/lib', 'HOME': '/root', 'OLDPWD': '/ros2_ws', 'ROS_PYTHON_VERSION': '3', 'ROS_DISTRO': 'jazzy', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'TERM': 'xterm', 'PATH': '/opt/ros/jazzy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin', 'LANG': 'C.UTF-8', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=00:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.avif=01;35:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:*~=00;90:*#=00;90:*.bak=00;90:*.crdownload=00;90:*.dpkg-dist=00;90:*.dpkg-new=00;90:*.dpkg-old=00;90:*.dpkg-tmp=00;90:*.old=00;90:*.orig=00;90:*.part=00;90:*.rej=00;90:*.rpmnew=00;90:*.rpmorig=00;90:*.rpmsave=00;90:*.swp=00;90:*.tmp=00;90:*.ucf-dist=00;90:*.ucf-new=00;90:*.ucf-old=00;90:', 'AMENT_PREFIX_PATH': '/opt/ros/jazzy', 'ROS_AUTOMATIC_DISCOVERY_RANGE': 'SUBNET', 'PWD': '/ros2_ws/jazzy_ws/build/grr_hardware', 'LC_ALL': 'C.UTF-8', 'PYTHONPATH': '/opt/ros/jazzy/lib/python3.12/site-packages', 'COLCON': '1', 'CMAKE_PREFIX_PATH': '/opt/ros/jazzy'}), 'shell': False}
+[32.045762] (grr_hardware) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[32.046770] (grr_hardware) StdoutLine: {'line': b'-- Execute custom install script\n'}
+[32.047678] (grr_hardware) StdoutLine: {'line': b'-- Symlinking: /ros2_ws/jazzy_ws/install/grr_hardware/share/grr_hardware//robot_hardware.xml\n'}
+[32.056225] (-) TimerEvent: {}
+[32.066447] (grr_hardware) StdoutLine: {'line': b'-- Symlinking: /ros2_ws/jazzy_ws/install/grr_hardware/lib/libgrr_hardware.so\n'}
+[32.084547] (grr_hardware) StdoutLine: {'line': b'-- Symlinking: /ros2_ws/jazzy_ws/install/grr_hardware/include/grr_hardware/base_hardware_interface.hpp\n'}
+[32.101555] (grr_hardware) StdoutLine: {'line': b'-- Symlinking: /ros2_ws/jazzy_ws/install/grr_hardware/include/grr_hardware/can_interface.hpp\n'}
+[32.118465] (grr_hardware) StdoutLine: {'line': b'-- Symlinking: /ros2_ws/jazzy_ws/install/grr_hardware/include/grr_hardware/isaac_drive.hpp\n'}
+[32.135183] (grr_hardware) StdoutLine: {'line': b'-- Symlinking: /ros2_ws/jazzy_ws/install/grr_hardware/include/grr_hardware/visibility_control.h\n'}
+[32.152829] (grr_hardware) StdoutLine: {'line': b'-- Symlinking: /ros2_ws/jazzy_ws/install/grr_hardware/share/grr_hardware/environment/library_path.sh\n'}
+[32.156333] (-) TimerEvent: {}
+[32.169986] (grr_hardware) StdoutLine: {'line': b'-- Symlinking: /ros2_ws/jazzy_ws/install/grr_hardware/share/grr_hardware/environment/library_path.dsv\n'}
+[32.187593] (grr_hardware) StdoutLine: {'line': b'-- Symlinking: /ros2_ws/jazzy_ws/install/grr_hardware/share/ament_index/resource_index/package_run_dependencies/grr_hardware\n'}
+[32.204748] (grr_hardware) StdoutLine: {'line': b'-- Symlinking: /ros2_ws/jazzy_ws/install/grr_hardware/share/ament_index/resource_index/parent_prefix_path/grr_hardware\n'}
+[32.222058] (grr_hardware) StdoutLine: {'line': b'-- Symlinking: /ros2_ws/jazzy_ws/install/grr_hardware/share/grr_hardware/environment/ament_prefix_path.sh\n'}
+[32.239326] (grr_hardware) StdoutLine: {'line': b'-- Symlinking: /ros2_ws/jazzy_ws/install/grr_hardware/share/grr_hardware/environment/ament_prefix_path.dsv\n'}
+[32.256414] (grr_hardware) StdoutLine: {'line': b'-- Symlinking: /ros2_ws/jazzy_ws/install/grr_hardware/share/grr_hardware/environment/path.sh\n'}
+[32.257134] (-) TimerEvent: {}
+[32.274000] (grr_hardware) StdoutLine: {'line': b'-- Symlinking: /ros2_ws/jazzy_ws/install/grr_hardware/share/grr_hardware/environment/path.dsv\n'}
+[32.291007] (grr_hardware) StdoutLine: {'line': b'-- Symlinking: /ros2_ws/jazzy_ws/install/grr_hardware/share/grr_hardware/local_setup.bash\n'}
+[32.308045] (grr_hardware) StdoutLine: {'line': b'-- Symlinking: /ros2_ws/jazzy_ws/install/grr_hardware/share/grr_hardware/local_setup.sh\n'}
+[32.325221] (grr_hardware) StdoutLine: {'line': b'-- Symlinking: /ros2_ws/jazzy_ws/install/grr_hardware/share/grr_hardware/local_setup.zsh\n'}
+[32.342375] (grr_hardware) StdoutLine: {'line': b'-- Symlinking: /ros2_ws/jazzy_ws/install/grr_hardware/share/grr_hardware/local_setup.dsv\n'}
+[32.357321] (-) TimerEvent: {}
+[32.359939] (grr_hardware) StdoutLine: {'line': b'-- Symlinking: /ros2_ws/jazzy_ws/install/grr_hardware/share/grr_hardware/package.dsv\n'}
+[32.377746] (grr_hardware) StdoutLine: {'line': b'-- Symlinking: /ros2_ws/jazzy_ws/install/grr_hardware/share/ament_index/resource_index/packages/grr_hardware\n'}
+[32.394930] (grr_hardware) StdoutLine: {'line': b'-- Symlinking: /ros2_ws/jazzy_ws/install/grr_hardware/share/ament_index/resource_index/hardware_interface__pluginlib__plugin/grr_hardware\n'}
+[32.412561] (grr_hardware) StdoutLine: {'line': b'-- Symlinking: /ros2_ws/jazzy_ws/install/grr_hardware/share/grr_hardware/cmake/ament_cmake_export_include_directories-extras.cmake\n'}
+[32.429658] (grr_hardware) StdoutLine: {'line': b'-- Symlinking: /ros2_ws/jazzy_ws/install/grr_hardware/share/grr_hardware/cmake/ament_cmake_export_libraries-extras.cmake\n'}
+[32.446761] (grr_hardware) StdoutLine: {'line': b'-- Symlinking: /ros2_ws/jazzy_ws/install/grr_hardware/share/grr_hardware/cmake/ament_cmake_export_dependencies-extras.cmake\n'}
+[32.457442] (-) TimerEvent: {}
+[32.464367] (grr_hardware) StdoutLine: {'line': b'-- Symlinking: /ros2_ws/jazzy_ws/install/grr_hardware/share/grr_hardware/cmake/grr_hardwareConfig.cmake\n'}
+[32.481646] (grr_hardware) StdoutLine: {'line': b'-- Symlinking: /ros2_ws/jazzy_ws/install/grr_hardware/share/grr_hardware/cmake/grr_hardwareConfig-version.cmake\n'}
+[32.498767] (grr_hardware) StdoutLine: {'line': b'-- Symlinking: /ros2_ws/jazzy_ws/install/grr_hardware/share/grr_hardware/package.xml\n'}
+[32.518868] (grr_hardware) CommandEnded: {'returncode': 0}
+[32.553479] (grr_hardware) JobEnded: {'identifier': 'grr_hardware', 'rc': 0}
+[32.555884] (grr_description) JobStarted: {'identifier': 'grr_description'}
+[32.557524] (-) TimerEvent: {}
+[32.569276] (grr_description) JobProgress: {'identifier': 'grr_description', 'progress': 'cmake'}
+[32.570333] (grr_description) Command: {'cmd': ['/usr/bin/cmake', '/ros2_ws/jazzy_ws/src/grr_description', '-DAMENT_CMAKE_SYMLINK_INSTALL=1', '-DCMAKE_INSTALL_PREFIX=/ros2_ws/jazzy_ws/install/grr_description'], 'cwd': '/ros2_ws/jazzy_ws/build/grr_description', 'env': OrderedDict({'HOSTNAME': 'c1aa08e4ae39', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/ros2_ws/jazzy_ws/install/grr_hardware/lib:/opt/ros/jazzy/lib/aarch64-linux-gnu:/opt/ros/jazzy/lib', 'HOME': '/root', 'OLDPWD': '/ros2_ws', 'ROS_PYTHON_VERSION': '3', 'ROS_DISTRO': 'jazzy', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'TERM': 'xterm', 'PATH': '/opt/ros/jazzy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin', 'LANG': 'C.UTF-8', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=00:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.avif=01;35:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:*~=00;90:*#=00;90:*.bak=00;90:*.crdownload=00;90:*.dpkg-dist=00;90:*.dpkg-new=00;90:*.dpkg-old=00;90:*.dpkg-tmp=00;90:*.old=00;90:*.orig=00;90:*.part=00;90:*.rej=00;90:*.rpmnew=00;90:*.rpmorig=00;90:*.rpmsave=00;90:*.swp=00;90:*.tmp=00;90:*.ucf-dist=00;90:*.ucf-new=00;90:*.ucf-old=00;90:', 'AMENT_PREFIX_PATH': '/ros2_ws/jazzy_ws/install/grr_hardware:/opt/ros/jazzy', 'ROS_AUTOMATIC_DISCOVERY_RANGE': 'SUBNET', 'PWD': '/ros2_ws/jazzy_ws/build/grr_description', 'LC_ALL': 'C.UTF-8', 'PYTHONPATH': '/opt/ros/jazzy/lib/python3.12/site-packages', 'COLCON': '1', 'CMAKE_PREFIX_PATH': '/ros2_ws/jazzy_ws/install/grr_hardware:/opt/ros/jazzy'}), 'shell': False}
+[32.657749] (-) TimerEvent: {}
+[32.686214] (grr_description) StdoutLine: {'line': b'-- The C compiler identification is GNU 13.3.0\n'}
+[32.757933] (-) TimerEvent: {}
+[32.804510] (grr_description) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 13.3.0\n'}
+[32.834575] (grr_description) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[32.858117] (-) TimerEvent: {}
+[32.959601] (-) TimerEvent: {}
+[33.008643] (grr_description) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[33.028072] (grr_description) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc - skipped\n'}
+[33.028640] (grr_description) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[33.029536] (grr_description) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[33.047243] (grr_description) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[33.059733] (-) TimerEvent: {}
+[33.160278] (-) TimerEvent: {}
+[33.238352] (grr_description) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[33.258177] (grr_description) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ - skipped\n'}
+[33.258790] (grr_description) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[33.259971] (grr_description) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[33.260329] (-) TimerEvent: {}
+[33.267162] (grr_description) StdoutLine: {'line': b'-- Found ament_cmake: 2.5.5 (/opt/ros/jazzy/share/ament_cmake/cmake)\n'}
+[33.360544] (-) TimerEvent: {}
+[33.461224] (-) TimerEvent: {}
+[33.519885] (grr_description) StdoutLine: {'line': b'-- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter \n'}
+[33.561335] (-) TimerEvent: {}
+[33.661842] (-) TimerEvent: {}
+[33.705442] (grr_description) StdoutLine: {'line': b'-- Override CMake install command with custom implementation using symlinks instead of copying resources\n'}
+[33.762043] (-) TimerEvent: {}
+[33.774791] (grr_description) StdoutLine: {'line': b'-- Found ament_lint_auto: 0.17.4 (/opt/ros/jazzy/share/ament_lint_auto/cmake)\n'}
+[33.862179] (-) TimerEvent: {}
+[33.962786] (-) TimerEvent: {}
+[34.049940] (grr_description) StdoutLine: {'line': b"-- Added test 'copyright' to check source files copyright and LICENSE\n"}
+[34.059696] (grr_description) StdoutLine: {'line': b"-- Added test 'lint_cmake' to check CMake code style\n"}
+[34.062854] (-) TimerEvent: {}
+[34.065145] (grr_description) StdoutLine: {'line': b"-- Added test 'xmllint' to check XML markup files\n"}
+[34.069328] (grr_description) StdoutLine: {'line': b'-- Configuring done (1.5s)\n'}
+[34.078027] (grr_description) StdoutLine: {'line': b'-- Generating done (0.0s)\n'}
+[34.081861] (grr_description) StdoutLine: {'line': b'-- Build files have been written to: /ros2_ws/jazzy_ws/build/grr_description\n'}
+[34.094221] (grr_description) CommandEnded: {'returncode': 0}
+[34.095180] (grr_description) JobProgress: {'identifier': 'grr_description', 'progress': 'build'}
+[34.095693] (grr_description) Command: {'cmd': ['/usr/bin/cmake', '--build', '/ros2_ws/jazzy_ws/build/grr_description', '--', '-j4', '-l4'], 'cwd': '/ros2_ws/jazzy_ws/build/grr_description', 'env': OrderedDict({'HOSTNAME': 'c1aa08e4ae39', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/ros2_ws/jazzy_ws/install/grr_hardware/lib:/opt/ros/jazzy/lib/aarch64-linux-gnu:/opt/ros/jazzy/lib', 'HOME': '/root', 'OLDPWD': '/ros2_ws', 'ROS_PYTHON_VERSION': '3', 'ROS_DISTRO': 'jazzy', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'TERM': 'xterm', 'PATH': '/opt/ros/jazzy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin', 'LANG': 'C.UTF-8', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=00:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.avif=01;35:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:*~=00;90:*#=00;90:*.bak=00;90:*.crdownload=00;90:*.dpkg-dist=00;90:*.dpkg-new=00;90:*.dpkg-old=00;90:*.dpkg-tmp=00;90:*.old=00;90:*.orig=00;90:*.part=00;90:*.rej=00;90:*.rpmnew=00;90:*.rpmorig=00;90:*.rpmsave=00;90:*.swp=00;90:*.tmp=00;90:*.ucf-dist=00;90:*.ucf-new=00;90:*.ucf-old=00;90:', 'AMENT_PREFIX_PATH': '/ros2_ws/jazzy_ws/install/grr_hardware:/opt/ros/jazzy', 'ROS_AUTOMATIC_DISCOVERY_RANGE': 'SUBNET', 'PWD': '/ros2_ws/jazzy_ws/build/grr_description', 'LC_ALL': 'C.UTF-8', 'PYTHONPATH': '/opt/ros/jazzy/lib/python3.12/site-packages', 'COLCON': '1', 'CMAKE_PREFIX_PATH': '/ros2_ws/jazzy_ws/install/grr_hardware:/opt/ros/jazzy'}), 'shell': False}
+[34.163056] (-) TimerEvent: {}
+[34.174326] (grr_description) CommandEnded: {'returncode': 0}
+[34.175639] (grr_description) JobProgress: {'identifier': 'grr_description', 'progress': 'install'}
+[34.176045] (grr_description) Command: {'cmd': ['/usr/bin/cmake', '--install', '/ros2_ws/jazzy_ws/build/grr_description'], 'cwd': '/ros2_ws/jazzy_ws/build/grr_description', 'env': OrderedDict({'HOSTNAME': 'c1aa08e4ae39', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/ros2_ws/jazzy_ws/install/grr_hardware/lib:/opt/ros/jazzy/lib/aarch64-linux-gnu:/opt/ros/jazzy/lib', 'HOME': '/root', 'OLDPWD': '/ros2_ws', 'ROS_PYTHON_VERSION': '3', 'ROS_DISTRO': 'jazzy', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'TERM': 'xterm', 'PATH': '/opt/ros/jazzy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin', 'LANG': 'C.UTF-8', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=00:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.avif=01;35:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:*~=00;90:*#=00;90:*.bak=00;90:*.crdownload=00;90:*.dpkg-dist=00;90:*.dpkg-new=00;90:*.dpkg-old=00;90:*.dpkg-tmp=00;90:*.old=00;90:*.orig=00;90:*.part=00;90:*.rej=00;90:*.rpmnew=00;90:*.rpmorig=00;90:*.rpmsave=00;90:*.swp=00;90:*.tmp=00;90:*.ucf-dist=00;90:*.ucf-new=00;90:*.ucf-old=00;90:', 'AMENT_PREFIX_PATH': '/ros2_ws/jazzy_ws/install/grr_hardware:/opt/ros/jazzy', 'ROS_AUTOMATIC_DISCOVERY_RANGE': 'SUBNET', 'PWD': '/ros2_ws/jazzy_ws/build/grr_description', 'LC_ALL': 'C.UTF-8', 'PYTHONPATH': '/opt/ros/jazzy/lib/python3.12/site-packages', 'COLCON': '1', 'CMAKE_PREFIX_PATH': '/ros2_ws/jazzy_ws/install/grr_hardware:/opt/ros/jazzy'}), 'shell': False}
+[34.192283] (grr_description) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[34.193165] (grr_description) StdoutLine: {'line': b'-- Execute custom install script\n'}
+[34.194661] (grr_description) StdoutLine: {'line': b'-- Symlinking: /ros2_ws/jazzy_ws/install/grr_description/share/grr_description/meshes/bingrableft_bottom.stl\n'}
+[34.212568] (grr_description) StdoutLine: {'line': b'-- Symlinking: /ros2_ws/jazzy_ws/install/grr_description/share/grr_description/meshes/bingrableft_middle.stl\n'}
+[34.229990] (grr_description) StdoutLine: {'line': b'-- Symlinking: /ros2_ws/jazzy_ws/install/grr_description/share/grr_description/meshes/bingrableft_top.stl\n'}
+[34.247449] (grr_description) StdoutLine: {'line': b'-- Symlinking: /ros2_ws/jazzy_ws/install/grr_description/share/grr_description/meshes/bingrabright_bottom.stl\n'}
+[34.263181] (-) TimerEvent: {}
+[34.265498] (grr_description) StdoutLine: {'line': b'-- Symlinking: /ros2_ws/jazzy_ws/install/grr_description/share/grr_description/meshes/bingrabright_middle.stl\n'}
+[34.283201] (grr_description) StdoutLine: {'line': b'-- Symlinking: /ros2_ws/jazzy_ws/install/grr_description/share/grr_description/meshes/bingrabright_top.stl\n'}
+[34.300801] (grr_description) StdoutLine: {'line': b'-- Symlinking: /ros2_ws/jazzy_ws/install/grr_description/share/grr_description/meshes/camera.stl\n'}
+[34.318258] (grr_description) StdoutLine: {'line': b'-- Symlinking: /ros2_ws/jazzy_ws/install/grr_description/share/grr_description/meshes/color_sensor.stl\n'}
+[34.335621] (grr_description) StdoutLine: {'line': b'-- Symlinking: /ros2_ws/jazzy_ws/install/grr_description/share/grr_description/meshes/drivebase.stl\n'}
+[34.352809] (grr_description) StdoutLine: {'line': b'-- Symlinking: /ros2_ws/jazzy_ws/install/grr_description/share/grr_description/meshes/intake.stl\n'}
+[34.363343] (-) TimerEvent: {}
+[34.370570] (grr_description) StdoutLine: {'line': b'-- Symlinking: /ros2_ws/jazzy_ws/install/grr_description/share/grr_description/meshes/intake_roller.stl\n'}
+[34.388284] (grr_description) StdoutLine: {'line': b'-- Symlinking: /ros2_ws/jazzy_ws/install/grr_description/share/grr_description/meshes/measurements.txt\n'}
+[34.406144] (grr_description) StdoutLine: {'line': b'-- Symlinking: /ros2_ws/jazzy_ws/install/grr_description/share/grr_description/meshes/mecanum_roller.stl\n'}
+[34.423664] (grr_description) StdoutLine: {'line': b'-- Symlinking: /ros2_ws/jazzy_ws/install/grr_description/share/grr_description/meshes/mecanum_wheel_1.stl\n'}
+[34.442059] (grr_description) StdoutLine: {'line': b'-- Symlinking: /ros2_ws/jazzy_ws/install/grr_description/share/grr_description/meshes/mecanum_wheel_2.stl\n'}
+[34.459621] (grr_description) StdoutLine: {'line': b'-- Symlinking: /ros2_ws/jazzy_ws/install/grr_description/share/grr_description/meshes/sorter.stl\n'}
+[34.463421] (-) TimerEvent: {}
+[34.477311] (grr_description) StdoutLine: {'line': b'-- Symlinking: /ros2_ws/jazzy_ws/install/grr_description/share/grr_description/meshes/sorter_enclosure.stl\n'}
+[34.494871] (grr_description) StdoutLine: {'line': b'-- Symlinking: /ros2_ws/jazzy_ws/install/grr_description/share/grr_description/meshes/sorter_stand.stl\n'}
+[34.512351] (grr_description) StdoutLine: {'line': b'-- Symlinking: /ros2_ws/jazzy_ws/install/grr_description/share/grr_description/meshes/zed2i.stl\n'}
+[34.530687] (grr_description) StdoutLine: {'line': b'-- Symlinking: /ros2_ws/jazzy_ws/install/grr_description/share/grr_description/urdf/control/drive.xacro\n'}
+[34.548379] (grr_description) StdoutLine: {'line': b'-- Symlinking: /ros2_ws/jazzy_ws/install/grr_description/share/grr_description/urdf/parts/becan.xacro\n'}
+[34.563574] (-) TimerEvent: {}
+[34.566070] (grr_description) StdoutLine: {'line': b'-- Symlinking: /ros2_ws/jazzy_ws/install/grr_description/share/grr_description/urdf/parts/bin_grabber.xacro\n'}
+[34.583607] (grr_description) StdoutLine: {'line': b'-- Symlinking: /ros2_ws/jazzy_ws/install/grr_description/share/grr_description/urdf/parts/chassis.xacro\n'}
+[34.601022] (grr_description) StdoutLine: {'line': b'-- Symlinking: /ros2_ws/jazzy_ws/install/grr_description/share/grr_description/urdf/parts/intake.xacro\n'}
+[34.618406] (grr_description) StdoutLine: {'line': b'-- Symlinking: /ros2_ws/jazzy_ws/install/grr_description/share/grr_description/urdf/parts/mecanum_roller.xacro\n'}
+[34.635774] (grr_description) StdoutLine: {'line': b'-- Symlinking: /ros2_ws/jazzy_ws/install/grr_description/share/grr_description/urdf/parts/mecanum_wheel.xacro\n'}
+[34.653448] (grr_description) StdoutLine: {'line': b'-- Symlinking: /ros2_ws/jazzy_ws/install/grr_description/share/grr_description/urdf/parts/sorter.xacro\n'}
+[34.663700] (-) TimerEvent: {}
+[34.670860] (grr_description) StdoutLine: {'line': b'-- Symlinking: /ros2_ws/jazzy_ws/install/grr_description/share/grr_description/urdf/parts/usb_camera.xacro\n'}
+[34.688580] (grr_description) StdoutLine: {'line': b'-- Symlinking: /ros2_ws/jazzy_ws/install/grr_description/share/grr_description/urdf/parts/zed_cam.xacro\n'}
+[34.705836] (grr_description) StdoutLine: {'line': b'-- Symlinking: /ros2_ws/jazzy_ws/install/grr_description/share/grr_description/urdf/parts/zed_macro.xacro\n'}
+[34.723315] (grr_description) StdoutLine: {'line': b'-- Symlinking: /ros2_ws/jazzy_ws/install/grr_description/share/grr_description/urdf/robots/test_robot_2026.urdf.xacro\n'}
+[34.741496] (grr_description) StdoutLine: {'line': b'-- Symlinking: /ros2_ws/jazzy_ws/install/grr_description/share/grr_description/urdf/util/macros.xacro\n'}
+[34.758780] (grr_description) StdoutLine: {'line': b'-- Symlinking: /ros2_ws/jazzy_ws/install/grr_description/share/grr_description/urdf/util/materials.xacro\n'}
+[34.763812] (-) TimerEvent: {}
+[34.777014] (grr_description) StdoutLine: {'line': b'-- Symlinking: /ros2_ws/jazzy_ws/install/grr_description/share/grr_description/grreg.urdf\n'}
+[34.794965] (grr_description) StdoutLine: {'line': b'-- Symlinking: /ros2_ws/jazzy_ws/install/grr_description/share/ament_index/resource_index/package_run_dependencies/grr_description\n'}
+[34.812873] (grr_description) StdoutLine: {'line': b'-- Symlinking: /ros2_ws/jazzy_ws/install/grr_description/share/ament_index/resource_index/parent_prefix_path/grr_description\n'}
+[34.830997] (grr_description) StdoutLine: {'line': b'-- Symlinking: /ros2_ws/jazzy_ws/install/grr_description/share/grr_description/environment/ament_prefix_path.sh\n'}
+[34.848894] (grr_description) StdoutLine: {'line': b'-- Symlinking: /ros2_ws/jazzy_ws/install/grr_description/share/grr_description/environment/ament_prefix_path.dsv\n'}
+[34.863953] (-) TimerEvent: {}
+[34.866792] (grr_description) StdoutLine: {'line': b'-- Symlinking: /ros2_ws/jazzy_ws/install/grr_description/share/grr_description/environment/path.sh\n'}
+[34.884980] (grr_description) StdoutLine: {'line': b'-- Symlinking: /ros2_ws/jazzy_ws/install/grr_description/share/grr_description/environment/path.dsv\n'}
+[34.902502] (grr_description) StdoutLine: {'line': b'-- Symlinking: /ros2_ws/jazzy_ws/install/grr_description/share/grr_description/local_setup.bash\n'}
+[34.920508] (grr_description) StdoutLine: {'line': b'-- Symlinking: /ros2_ws/jazzy_ws/install/grr_description/share/grr_description/local_setup.sh\n'}
+[34.938286] (grr_description) StdoutLine: {'line': b'-- Symlinking: /ros2_ws/jazzy_ws/install/grr_description/share/grr_description/local_setup.zsh\n'}
+[34.956126] (grr_description) StdoutLine: {'line': b'-- Symlinking: /ros2_ws/jazzy_ws/install/grr_description/share/grr_description/local_setup.dsv\n'}
+[34.964074] (-) TimerEvent: {}
+[34.974275] (grr_description) StdoutLine: {'line': b'-- Symlinking: /ros2_ws/jazzy_ws/install/grr_description/share/grr_description/package.dsv\n'}
+[34.992417] (grr_description) StdoutLine: {'line': b'-- Symlinking: /ros2_ws/jazzy_ws/install/grr_description/share/ament_index/resource_index/packages/grr_description\n'}
+[35.010376] (grr_description) StdoutLine: {'line': b'-- Symlinking: /ros2_ws/jazzy_ws/install/grr_description/share/grr_description/cmake/grr_descriptionConfig.cmake\n'}
+[35.027842] (grr_description) StdoutLine: {'line': b'-- Symlinking: /ros2_ws/jazzy_ws/install/grr_description/share/grr_description/cmake/grr_descriptionConfig-version.cmake\n'}
+[35.045613] (grr_description) StdoutLine: {'line': b'-- Symlinking: /ros2_ws/jazzy_ws/install/grr_description/share/grr_description/package.xml\n'}
+[35.064202] (-) TimerEvent: {}
+[35.066564] (grr_description) CommandEnded: {'returncode': 0}
+[35.095318] (grr_description) JobEnded: {'identifier': 'grr_description', 'rc': 0}
+[35.164349] (-) TimerEvent: {}
+[35.264875] (-) TimerEvent: {}
+[35.365450] (-) TimerEvent: {}
+[35.466041] (-) TimerEvent: {}
+[35.566648] (-) TimerEvent: {}
+[35.667253] (-) TimerEvent: {}
+[35.767920] (-) TimerEvent: {}
+[35.868518] (-) TimerEvent: {}
+[35.969101] (-) TimerEvent: {}
+[36.069700] (-) TimerEvent: {}
+[36.170279] (-) TimerEvent: {}
+[36.270858] (-) TimerEvent: {}
+[36.371435] (-) TimerEvent: {}
+[36.472000] (-) TimerEvent: {}
+[36.572553] (-) TimerEvent: {}
+[36.673102] (-) TimerEvent: {}
+[36.773661] (-) TimerEvent: {}
+[36.874229] (-) TimerEvent: {}
+[36.974805] (-) TimerEvent: {}
+[37.075383] (-) TimerEvent: {}
+[37.175952] (-) TimerEvent: {}
+[37.276619] (-) TimerEvent: {}
+[37.377186] (-) TimerEvent: {}
+[37.477757] (-) TimerEvent: {}
+[37.578307] (-) TimerEvent: {}
+[37.678873] (-) TimerEvent: {}
+[37.779444] (-) TimerEvent: {}
+[37.880022] (-) TimerEvent: {}
+[37.980590] (-) TimerEvent: {}
+[38.081150] (-) TimerEvent: {}
+[38.181720] (-) TimerEvent: {}
+[38.282287] (-) TimerEvent: {}
+[38.382872] (-) TimerEvent: {}
+[38.483457] (-) TimerEvent: {}
+[38.584192] (-) TimerEvent: {}
+[38.684757] (-) TimerEvent: {}
+[38.785337] (-) TimerEvent: {}
+[38.885913] (-) TimerEvent: {}
+[38.986483] (-) TimerEvent: {}
+[39.087042] (-) TimerEvent: {}
+[39.187632] (-) TimerEvent: {}
+[39.288216] (-) TimerEvent: {}
+[39.388804] (-) TimerEvent: {}
+[39.489384] (-) TimerEvent: {}
+[39.589962] (-) TimerEvent: {}
+[39.690513] (-) TimerEvent: {}
+[39.791068] (-) TimerEvent: {}
+[39.891658] (-) TimerEvent: {}
+[39.992296] (-) TimerEvent: {}
+[40.092872] (-) TimerEvent: {}
+[40.193451] (-) TimerEvent: {}
+[40.294030] (-) TimerEvent: {}
+[40.394727] (-) TimerEvent: {}
+[40.495464] (-) TimerEvent: {}
+[40.596078] (-) TimerEvent: {}
+[40.696682] (-) TimerEvent: {}
+[40.797289] (-) TimerEvent: {}
+[40.898036] (-) TimerEvent: {}
+[40.998739] (-) TimerEvent: {}
+[41.099388] (-) TimerEvent: {}
+[41.200027] (-) TimerEvent: {}
+[41.300776] (-) TimerEvent: {}
+[41.401655] (-) TimerEvent: {}
+[41.502539] (-) TimerEvent: {}
+[41.603195] (-) TimerEvent: {}
+[41.703846] (-) TimerEvent: {}
+[41.804458] (-) TimerEvent: {}
+[41.905194] (-) TimerEvent: {}
+[42.005839] (-) TimerEvent: {}
+[42.106475] (-) TimerEvent: {}
+[42.207111] (-) TimerEvent: {}
+[42.307820] (-) TimerEvent: {}
+[42.408459] (-) TimerEvent: {}
+[42.509109] (-) TimerEvent: {}
+[42.540608] (grr_cmake_controller) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking CXX shared library libgrr_cmake_controller.so\x1b[0m\n'}
+[42.609546] (-) TimerEvent: {}
+[42.710215] (-) TimerEvent: {}
+[42.810876] (-) TimerEvent: {}
+[42.911593] (-) TimerEvent: {}
+[43.012266] (-) TimerEvent: {}
+[43.113116] (-) TimerEvent: {}
+[43.213783] (-) TimerEvent: {}
+[43.314453] (-) TimerEvent: {}
+[43.415099] (-) TimerEvent: {}
+[43.515908] (-) TimerEvent: {}
+[43.616707] (-) TimerEvent: {}
+[43.717360] (-) TimerEvent: {}
+[43.818005] (-) TimerEvent: {}
+[43.918646] (-) TimerEvent: {}
+[44.019362] (-) TimerEvent: {}
+[44.120227] (-) TimerEvent: {}
+[44.220871] (-) TimerEvent: {}
+[44.286684] (grr_cmake_controller) StdoutLine: {'line': b'[100%] Built target grr_cmake_controller\n'}
+[44.310059] (grr_cmake_controller) CommandEnded: {'returncode': 0}
+[44.311999] (grr_cmake_controller) JobProgress: {'identifier': 'grr_cmake_controller', 'progress': 'install'}
+[44.312922] (grr_cmake_controller) Command: {'cmd': ['/usr/bin/cmake', '--install', '/ros2_ws/jazzy_ws/build/grr_cmake_controller'], 'cwd': '/ros2_ws/jazzy_ws/build/grr_cmake_controller', 'env': OrderedDict({'HOSTNAME': 'c1aa08e4ae39', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/opt/ros/jazzy/lib/aarch64-linux-gnu:/opt/ros/jazzy/lib', 'HOME': '/root', 'OLDPWD': '/ros2_ws', 'ROS_PYTHON_VERSION': '3', 'ROS_DISTRO': 'jazzy', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'TERM': 'xterm', 'PATH': '/opt/ros/jazzy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin', 'LANG': 'C.UTF-8', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=00:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.avif=01;35:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:*~=00;90:*#=00;90:*.bak=00;90:*.crdownload=00;90:*.dpkg-dist=00;90:*.dpkg-new=00;90:*.dpkg-old=00;90:*.dpkg-tmp=00;90:*.old=00;90:*.orig=00;90:*.part=00;90:*.rej=00;90:*.rpmnew=00;90:*.rpmorig=00;90:*.rpmsave=00;90:*.swp=00;90:*.tmp=00;90:*.ucf-dist=00;90:*.ucf-new=00;90:*.ucf-old=00;90:', 'AMENT_PREFIX_PATH': '/opt/ros/jazzy', 'ROS_AUTOMATIC_DISCOVERY_RANGE': 'SUBNET', 'PWD': '/ros2_ws/jazzy_ws/build/grr_cmake_controller', 'LC_ALL': 'C.UTF-8', 'PYTHONPATH': '/opt/ros/jazzy/lib/python3.12/site-packages', 'COLCON': '1', 'CMAKE_PREFIX_PATH': '/opt/ros/jazzy'}), 'shell': False}
+[44.320977] (-) TimerEvent: {}
+[44.329341] (grr_cmake_controller) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[44.330258] (grr_cmake_controller) StdoutLine: {'line': b'-- Execute custom install script\n'}
+[44.330996] (grr_cmake_controller) StdoutLine: {'line': b'-- Symlinking: /ros2_ws/jazzy_ws/install/grr_cmake_controller/share/grr_cmake_controller//mecanum_plugin.xml\n'}
+[44.348667] (grr_cmake_controller) StdoutLine: {'line': b'-- Symlinking: /ros2_ws/jazzy_ws/install/grr_cmake_controller/include/grr_cmake_controller/grr_cmake_controller.hpp\n'}
+[44.365097] (grr_cmake_controller) StdoutLine: {'line': b'-- Symlinking: /ros2_ws/jazzy_ws/install/grr_cmake_controller/include/grr_cmake_controller/odometry.hpp\n'}
+[44.381206] (grr_cmake_controller) StdoutLine: {'line': b'-- Symlinking: /ros2_ws/jazzy_ws/install/grr_cmake_controller/include/grr_cmake_controller/rolling_mean_accumulator.hpp\n'}
+[44.397874] (grr_cmake_controller) StdoutLine: {'line': b'-- Symlinking: /ros2_ws/jazzy_ws/install/grr_cmake_controller/include/grr_cmake_controller/speed_limiter.hpp\n'}
+[44.413660] (grr_cmake_controller) StdoutLine: {'line': b'-- Symlinking: /ros2_ws/jazzy_ws/install/grr_cmake_controller/include/grr_cmake_controller/visibility_control.h\n'}
+[44.421081] (-) TimerEvent: {}
+[44.431441] (grr_cmake_controller) StdoutLine: {'line': b'-- Symlinking: /ros2_ws/jazzy_ws/install/grr_cmake_controller/lib/libgrr_cmake_controller.so\n'}
+[44.450373] (grr_cmake_controller) StdoutLine: {'line': b'-- Symlinking: /ros2_ws/jazzy_ws/install/grr_cmake_controller/share/grr_cmake_controller/environment/library_path.sh\n'}
+[44.466670] (grr_cmake_controller) StdoutLine: {'line': b'-- Symlinking: /ros2_ws/jazzy_ws/install/grr_cmake_controller/share/grr_cmake_controller/environment/library_path.dsv\n'}
+[44.484075] (grr_cmake_controller) StdoutLine: {'line': b'-- Symlinking: /ros2_ws/jazzy_ws/install/grr_cmake_controller/share/ament_index/resource_index/package_run_dependencies/grr_cmake_controller\n'}
+[44.501297] (grr_cmake_controller) StdoutLine: {'line': b'-- Symlinking: /ros2_ws/jazzy_ws/install/grr_cmake_controller/share/ament_index/resource_index/parent_prefix_path/grr_cmake_controller\n'}
+[44.517359] (grr_cmake_controller) StdoutLine: {'line': b'-- Symlinking: /ros2_ws/jazzy_ws/install/grr_cmake_controller/share/grr_cmake_controller/environment/ament_prefix_path.sh\n'}
+[44.521169] (-) TimerEvent: {}
+[44.533584] (grr_cmake_controller) StdoutLine: {'line': b'-- Symlinking: /ros2_ws/jazzy_ws/install/grr_cmake_controller/share/grr_cmake_controller/environment/ament_prefix_path.dsv\n'}
+[44.550080] (grr_cmake_controller) StdoutLine: {'line': b'-- Symlinking: /ros2_ws/jazzy_ws/install/grr_cmake_controller/share/grr_cmake_controller/environment/path.sh\n'}
+[44.565930] (grr_cmake_controller) StdoutLine: {'line': b'-- Symlinking: /ros2_ws/jazzy_ws/install/grr_cmake_controller/share/grr_cmake_controller/environment/path.dsv\n'}
+[44.582496] (grr_cmake_controller) StdoutLine: {'line': b'-- Symlinking: /ros2_ws/jazzy_ws/install/grr_cmake_controller/share/grr_cmake_controller/local_setup.bash\n'}
+[44.598358] (grr_cmake_controller) StdoutLine: {'line': b'-- Symlinking: /ros2_ws/jazzy_ws/install/grr_cmake_controller/share/grr_cmake_controller/local_setup.sh\n'}
+[44.614885] (grr_cmake_controller) StdoutLine: {'line': b'-- Symlinking: /ros2_ws/jazzy_ws/install/grr_cmake_controller/share/grr_cmake_controller/local_setup.zsh\n'}
+[44.621282] (-) TimerEvent: {}
+[44.631113] (grr_cmake_controller) StdoutLine: {'line': b'-- Symlinking: /ros2_ws/jazzy_ws/install/grr_cmake_controller/share/grr_cmake_controller/local_setup.dsv\n'}
+[44.647972] (grr_cmake_controller) StdoutLine: {'line': b'-- Symlinking: /ros2_ws/jazzy_ws/install/grr_cmake_controller/share/grr_cmake_controller/package.dsv\n'}
+[44.664764] (grr_cmake_controller) StdoutLine: {'line': b'-- Symlinking: /ros2_ws/jazzy_ws/install/grr_cmake_controller/share/ament_index/resource_index/packages/grr_cmake_controller\n'}
+[44.680690] (grr_cmake_controller) StdoutLine: {'line': b'-- Symlinking: /ros2_ws/jazzy_ws/install/grr_cmake_controller/share/ament_index/resource_index/controller_interface__pluginlib__plugin/grr_cmake_controller\n'}
+[44.697175] (grr_cmake_controller) StdoutLine: {'line': b'-- Symlinking: /ros2_ws/jazzy_ws/install/grr_cmake_controller/share/grr_cmake_controller/cmake/ament_cmake_export_dependencies-extras.cmake\n'}
+[44.712981] (grr_cmake_controller) StdoutLine: {'line': b'-- Symlinking: /ros2_ws/jazzy_ws/install/grr_cmake_controller/share/grr_cmake_controller/cmake/ament_cmake_export_include_directories-extras.cmake\n'}
+[44.721412] (-) TimerEvent: {}
+[44.729932] (grr_cmake_controller) StdoutLine: {'line': b'-- Symlinking: /ros2_ws/jazzy_ws/install/grr_cmake_controller/share/grr_cmake_controller/cmake/ament_cmake_export_libraries-extras.cmake\n'}
+[44.745636] (grr_cmake_controller) StdoutLine: {'line': b'-- Symlinking: /ros2_ws/jazzy_ws/install/grr_cmake_controller/share/grr_cmake_controller/cmake/grr_cmake_controllerConfig.cmake\n'}
+[44.761369] (grr_cmake_controller) StdoutLine: {'line': b'-- Symlinking: /ros2_ws/jazzy_ws/install/grr_cmake_controller/share/grr_cmake_controller/cmake/grr_cmake_controllerConfig-version.cmake\n'}
+[44.778111] (grr_cmake_controller) StdoutLine: {'line': b'-- Symlinking: /ros2_ws/jazzy_ws/install/grr_cmake_controller/share/grr_cmake_controller/package.xml\n'}
+[44.797484] (grr_cmake_controller) CommandEnded: {'returncode': 0}
+[44.821832] (-) TimerEvent: {}
+[44.849481] (grr_cmake_controller) JobEnded: {'identifier': 'grr_cmake_controller', 'rc': 0}
+[44.854511] (-) EventReactorShutdown: {}

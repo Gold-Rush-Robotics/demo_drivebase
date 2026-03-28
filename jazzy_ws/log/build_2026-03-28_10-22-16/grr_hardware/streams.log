@@ -1,0 +1,74 @@
+[0.046s] Invoking command in '/ros2_ws/jazzy_ws/build/grr_hardware': CMAKE_PREFIX_PATH=/opt/ros/jazzy /usr/bin/cmake /ros2_ws/jazzy_ws/src/grr_hardware -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/ros2_ws/jazzy_ws/install/grr_hardware
+[0.258s] -- The C compiler identification is GNU 13.3.0
+[0.434s] -- The CXX compiler identification is GNU 13.3.0
+[0.471s] -- Detecting C compiler ABI info
+[0.683s] -- Detecting C compiler ABI info - done
+[0.703s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.704s] -- Detecting C compile features
+[0.704s] -- Detecting C compile features - done
+[0.731s] -- Detecting CXX compiler ABI info
+[0.938s] -- Detecting CXX compiler ABI info - done
+[0.958s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.958s] -- Detecting CXX compile features
+[0.959s] -- Detecting CXX compile features - done
+[0.970s] -- Found ament_cmake: 2.5.5 (/opt/ros/jazzy/share/ament_cmake/cmake)
+[1.257s] -- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter 
+[1.471s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[1.559s] -- Found hardware_interface: 4.42.2 (/opt/ros/jazzy/share/hardware_interface/cmake)
+[1.680s] -- Found rosidl_generator_c: 4.6.7 (/opt/ros/jazzy/share/rosidl_generator_c/cmake)
+[1.717s] -- Found rosidl_generator_cpp: 4.6.7 (/opt/ros/jazzy/share/rosidl_generator_cpp/cmake)
+[1.766s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[1.818s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[2.364s] -- Found TinyXML2 via Config file: /usr/lib/aarch64-linux-gnu/cmake/tinyxml2
+[2.483s] -- Found rmw_implementation_cmake: 7.3.3 (/opt/ros/jazzy/share/rmw_implementation_cmake/cmake)
+[2.491s] -- Found rmw_fastrtps_cpp: 8.4.3 (/opt/ros/jazzy/share/rmw_fastrtps_cpp/cmake)
+[2.559s] -- Found TinyXML2 via Config file: /usr/lib/aarch64-linux-gnu/cmake/tinyxml2
+[2.645s] -- Found OpenSSL: /usr/lib/aarch64-linux-gnu/libcrypto.so (found version "3.0.13")  
+[2.654s] -- Found TinyXML2 via Config file: /usr/lib/aarch64-linux-gnu/cmake/tinyxml2
+[2.685s] -- Found FastRTPS: /opt/ros/jazzy/include (Required is at least version "2.13") 
+[2.693s] -- Found TinyXML2 via Config file: /usr/lib/aarch64-linux-gnu/cmake/tinyxml2
+[2.715s] -- Found TinyXML2 via Config file: /usr/lib/aarch64-linux-gnu/cmake/tinyxml2
+[2.735s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[3.309s] -- Found ament_cmake_gtest: 2.5.5 (/opt/ros/jazzy/share/ament_cmake_gtest/cmake)
+[3.562s] -- Configuring done (3.5s)
+[3.634s] -- Generating done (0.0s)
+[3.645s] -- Build files have been written to: /ros2_ws/jazzy_ws/build/grr_hardware
+[3.675s] Invoked command in '/ros2_ws/jazzy_ws/build/grr_hardware' returned '0': CMAKE_PREFIX_PATH=/opt/ros/jazzy /usr/bin/cmake /ros2_ws/jazzy_ws/src/grr_hardware -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/ros2_ws/jazzy_ws/install/grr_hardware
+[3.677s] Invoking command in '/ros2_ws/jazzy_ws/build/grr_hardware': CMAKE_PREFIX_PATH=/opt/ros/jazzy /usr/bin/cmake --build /ros2_ws/jazzy_ws/build/grr_hardware -- -j4 -l4
+[3.780s] [ 75%] [32mBuilding CXX object CMakeFiles/grr_hardware.dir/src/base_hardware_interface.cpp.o[0m
+[3.781s] [ 75%] [32mBuilding CXX object CMakeFiles/grr_hardware.dir/src/isaac_drive.cpp.o[0m
+[3.781s] [ 75%] [32mBuilding CXX object CMakeFiles/grr_hardware.dir/src/can_interface.cpp.o[0m
+[30.716s] [100%] [32m[1mLinking CXX shared library libgrr_hardware.so[0m
+[32.004s] [100%] Built target grr_hardware
+[32.027s] Invoked command in '/ros2_ws/jazzy_ws/build/grr_hardware' returned '0': CMAKE_PREFIX_PATH=/opt/ros/jazzy /usr/bin/cmake --build /ros2_ws/jazzy_ws/build/grr_hardware -- -j4 -l4
+[32.029s] Invoking command in '/ros2_ws/jazzy_ws/build/grr_hardware': CMAKE_PREFIX_PATH=/opt/ros/jazzy /usr/bin/cmake --install /ros2_ws/jazzy_ws/build/grr_hardware
+[32.044s] -- Install configuration: ""
+[32.045s] -- Execute custom install script
+[32.046s] -- Symlinking: /ros2_ws/jazzy_ws/install/grr_hardware/share/grr_hardware//robot_hardware.xml
+[32.065s] -- Symlinking: /ros2_ws/jazzy_ws/install/grr_hardware/lib/libgrr_hardware.so
+[32.083s] -- Symlinking: /ros2_ws/jazzy_ws/install/grr_hardware/include/grr_hardware/base_hardware_interface.hpp
+[32.100s] -- Symlinking: /ros2_ws/jazzy_ws/install/grr_hardware/include/grr_hardware/can_interface.hpp
+[32.117s] -- Symlinking: /ros2_ws/jazzy_ws/install/grr_hardware/include/grr_hardware/isaac_drive.hpp
+[32.134s] -- Symlinking: /ros2_ws/jazzy_ws/install/grr_hardware/include/grr_hardware/visibility_control.h
+[32.151s] -- Symlinking: /ros2_ws/jazzy_ws/install/grr_hardware/share/grr_hardware/environment/library_path.sh
+[32.168s] -- Symlinking: /ros2_ws/jazzy_ws/install/grr_hardware/share/grr_hardware/environment/library_path.dsv
+[32.186s] -- Symlinking: /ros2_ws/jazzy_ws/install/grr_hardware/share/ament_index/resource_index/package_run_dependencies/grr_hardware
+[32.203s] -- Symlinking: /ros2_ws/jazzy_ws/install/grr_hardware/share/ament_index/resource_index/parent_prefix_path/grr_hardware
+[32.220s] -- Symlinking: /ros2_ws/jazzy_ws/install/grr_hardware/share/grr_hardware/environment/ament_prefix_path.sh
+[32.238s] -- Symlinking: /ros2_ws/jazzy_ws/install/grr_hardware/share/grr_hardware/environment/ament_prefix_path.dsv
+[32.255s] -- Symlinking: /ros2_ws/jazzy_ws/install/grr_hardware/share/grr_hardware/environment/path.sh
+[32.272s] -- Symlinking: /ros2_ws/jazzy_ws/install/grr_hardware/share/grr_hardware/environment/path.dsv
+[32.289s] -- Symlinking: /ros2_ws/jazzy_ws/install/grr_hardware/share/grr_hardware/local_setup.bash
+[32.306s] -- Symlinking: /ros2_ws/jazzy_ws/install/grr_hardware/share/grr_hardware/local_setup.sh
+[32.324s] -- Symlinking: /ros2_ws/jazzy_ws/install/grr_hardware/share/grr_hardware/local_setup.zsh
+[32.341s] -- Symlinking: /ros2_ws/jazzy_ws/install/grr_hardware/share/grr_hardware/local_setup.dsv
+[32.358s] -- Symlinking: /ros2_ws/jazzy_ws/install/grr_hardware/share/grr_hardware/package.dsv
+[32.376s] -- Symlinking: /ros2_ws/jazzy_ws/install/grr_hardware/share/ament_index/resource_index/packages/grr_hardware
+[32.393s] -- Symlinking: /ros2_ws/jazzy_ws/install/grr_hardware/share/ament_index/resource_index/hardware_interface__pluginlib__plugin/grr_hardware
+[32.411s] -- Symlinking: /ros2_ws/jazzy_ws/install/grr_hardware/share/grr_hardware/cmake/ament_cmake_export_include_directories-extras.cmake
+[32.428s] -- Symlinking: /ros2_ws/jazzy_ws/install/grr_hardware/share/grr_hardware/cmake/ament_cmake_export_libraries-extras.cmake
+[32.445s] -- Symlinking: /ros2_ws/jazzy_ws/install/grr_hardware/share/grr_hardware/cmake/ament_cmake_export_dependencies-extras.cmake
+[32.463s] -- Symlinking: /ros2_ws/jazzy_ws/install/grr_hardware/share/grr_hardware/cmake/grr_hardwareConfig.cmake
+[32.480s] -- Symlinking: /ros2_ws/jazzy_ws/install/grr_hardware/share/grr_hardware/cmake/grr_hardwareConfig-version.cmake
+[32.497s] -- Symlinking: /ros2_ws/jazzy_ws/install/grr_hardware/share/grr_hardware/package.xml
+[32.518s] Invoked command in '/ros2_ws/jazzy_ws/build/grr_hardware' returned '0': CMAKE_PREFIX_PATH=/opt/ros/jazzy /usr/bin/cmake --install /ros2_ws/jazzy_ws/build/grr_hardware

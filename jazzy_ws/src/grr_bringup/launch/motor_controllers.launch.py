@@ -6,19 +6,20 @@ from launch.event_handlers import OnProcessExit
 from launch.launch_description_sources import PythonLaunchDescriptionSource
 from launch_ros.actions import Node
 import xacro
-
+from launch.substitutions import Command, LaunchConfiguration
 def generate_launch_description():
 
     # Get Local Files
     description_pkg_path = os.path.join(get_package_share_directory('grr_description'))
     config_pkg_path = os.path.join(get_package_share_directory('grr_bringup'))
     joystick_file = os.path.join(config_pkg_path, 'config', 'xbox-holonomic.config.yaml')
-    xacro_file = os.path.join(description_pkg_path, 'urdf', 'robots','grreg.urdf.xacro')
+    xacro_file = os.path.join(description_pkg_path, 'urdf', 'robots','test_robot_2026.urdf.xacro')
     controllers_file = os.path.join(config_pkg_path, 'config', 'controllers.yaml')
     rviz_file = os.path.join(config_pkg_path, 'config', 'config.rviz')
-    robot_description_config = xacro.process_file(xacro_file)
-    robot_description_xml = robot_description_config.toxml()
-    print(robot_description_xml)
+    robot_description_xml = Command([
+        'xacro ', xacro_file,
+        ' hardware_interface:=', hardware_interface
+    ])
     
     # Create a robot_state_publisher node
     description_params = {'robot_description': robot_description_xml, 'use_sim_time': False }

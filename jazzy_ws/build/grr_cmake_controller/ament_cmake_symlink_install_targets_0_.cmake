@@ -1,0 +1,1 @@
+ament_cmake_symlink_install_targets("TARGET_FILES" "/ros2_ws/jazzy_ws/build/grr_cmake_controller/libgrr_cmake_controller.so" "TARGETS" "grr_cmake_controller" "RUNTIME_DESTINATION" "bin" "ARCHIVE_DESTINATION" "lib" "LIBRARY_DESTINATION" "lib")
